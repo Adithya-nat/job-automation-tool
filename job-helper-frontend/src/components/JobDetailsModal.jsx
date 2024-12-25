@@ -64,37 +64,63 @@ const JobDetailsModal = ({ job, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg p-6 w-full max-w-lg shadow-lg animate-fadeIn overflow-hidden">
+      <div className="bg-white rounded-lg p-6 w-full max-w-screen-md shadow-lg animate-fadeIn overflow-hidden">
         <button className="text-gray-500 float-right" onClick={onClose}>
           ✕
         </button>
         <h2 className="text-xl font-bold mb-4">{job.title}</h2>
         <p className="text-gray-700">{job.company}</p>
         <p className="text-gray-500">{job.location}</p>
-        <a href={job.link} target="_blank" rel="noreferrer" className="text-blue-500 hover:underline mt-2 inline-block">
+        <a
+          href={job.link}
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-500 hover:underline mt-2 inline-block"
+        >
           Apply Here
         </a>
-        <input type="file" className="block w-full mt-4 text-sm text-gray-600" onChange={(e) => setResumeFile(e.target.files[0])} />
+        <input
+          type="file"
+          className="block w-full mt-4 text-sm text-gray-600"
+          onChange={(e) => setResumeFile(e.target.files[0])}
+        />
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded mt-4 hover:bg-blue-600"
           onClick={handleUpload}
           disabled={loading}
         >
-          {loading ? <span className="animate-spin border-2 border-blue-500 border-t-transparent rounded-full w-5 h-5 inline-block"></span> : 'Upload Resume'}
+          {loading ? (
+            <span className="animate-spin border-2 border-blue-500 border-t-transparent rounded-full w-5 h-5 inline-block"></span>
+          ) : (
+            'Upload Resume'
+          )}
         </button>
         {loading && <p className="mt-2 text-gray-500">Processing...</p>}
         {(enhancements || coverLetter) && (
-          <div className="mt-6 overflow-y-auto max-h-[60vh] divide-y divide-gray-300">
+          <div
+            className="mt-6 overflow-y-auto max-h-[60vh] divide-y divide-gray-300"
+            style={{ scrollBehavior: 'smooth' }}
+          >
             {enhancements && (
               <div className="p-4 animate-slideIn">
-                <h3 className="font-semibold mb-2">Enhanced Resume Summary</h3>
-                <pre className="text-sm text-gray-700 whitespace-pre-wrap">{enhancements}</pre>
+                <h3 className="font-semibold mb-2">Hi Job Seeker! I am a Job Search assistant who decided to help you out today.:</h3>
+                <p className="text-gray-700 mb-2">
+                  Here’s how I’ve refined your resume to make it shine!
+                </p>
+                <pre className="text-sm text-gray-700 whitespace-pre-wrap bg-gray-100 p-4 rounded">
+                  {enhancements}
+                </pre>
               </div>
             )}
             {coverLetter && (
               <div className="p-4 animate-slideIn">
-                <h3 className="font-semibold mb-2">Generated Cover Letter</h3>
-                <pre className="text-sm text-gray-700 whitespace-pre-wrap mb-4">{coverLetter}</pre>
+                <h3 className="font-semibold mb-2">Also, I can be of more help too.</h3>
+                <p className="text-gray-700 mb-2">
+                  I’ve prepared this cover letter for you to make a great first impression!
+                </p>
+                <pre className="text-sm text-gray-700 whitespace-pre-wrap bg-gray-100 p-4 rounded mb-4">
+                  {coverLetter}
+                </pre>
                 <button
                   className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
                   onClick={() => copyToClipboard(coverLetter)}

@@ -25,7 +25,7 @@ const sendFilteredJobsToSlack = async (req, res) => {
         logger.info(`Received request to send jobs with filters: ${JSON.stringify(req.body.filters)}`);
 
         // Fetch job listings
-        const jujuJobs = await fetchJobsFromJujuAPI(keywords[0], locations[0], category, results);
+        const jujuJobs = await fetchJobsFromJujuAPI(keywords, locations, category, results);
 
         logger.info(`Fetched jobs from Juju API: ${jujuJobs.length}`);
 
