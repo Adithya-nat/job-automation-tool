@@ -110,17 +110,23 @@ const enhanceResume = async (req, res) => {
                 Based on the following analysis:
                 ${analysis}
 
-                Enhance the user's resume below by aligning it with the job requirements. Highlight missing skills, qualifications, and responsibilities:
+                1. Enhance the user's resume below by aligning it with the job requirements. Highlight missing skills, qualifications, and responsibilities:
                 ${resume}
 
-                Please provide a summary of the enhancements you are making to the resume.
+                2. Generate a professional cover letter for the user, explaining why they are the best fit for the job, using the analysis and enhanced resume content.
+
+                Format your response with:
+                ===ENHANCEMENTS===
+                <Enhancements Summary>
+                ===COVER LETTER===
+                <Generated Cover Letter>
                 `
             }
         ];
 
-        // Step 2: Call ChatGPT for resume enhancement
-        const result = await chatGptUtil.makeChatGPTRequest(process.env.CHATGPT_MODEL, messages, 800);
-        logger.info("Resume enhancement completed successfully.");
+        // Step 2: Call ChatGPT for resume enhancement and cover letter generation
+        const result = await chatGptUtil.makeChatGPTRequest(process.env.CHATGPT_MODEL, messages, 1200);
+        logger.info("Resume enhancement and cover letter generation completed successfully.");
         res.json({ enhancedResume: result });
     } catch (error) {
         logger.error(`Error in enhanceResume: ${error.message}`);
