@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 const JobAggregator = () => {
   const [jobs, setJobs] = useState([]);
@@ -8,7 +9,7 @@ const JobAggregator = () => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const response = await axios.post('http://localhost:8090/slack/jobs', {
+        const response = await axios.post(`${API_BASE_URL}/slack/jobs`, {
           filters: { keywords: ['architect'], locations: ['California'], category: 'construction', results: 5 },
         });
         setJobs(response.data.jobs || []);
