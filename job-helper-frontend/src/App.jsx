@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import JobAggregator from './pages/JobAggregator'
 import ResumeEnhancer from './pages/ResumeEnhancer'
 import Home from './pages/Home'
 
