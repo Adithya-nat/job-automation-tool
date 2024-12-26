@@ -1,0 +1,772 @@
+2024-12-15 20:03:24 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-15 20:03:24 [ERROR]: Error in sending job notifications: fetchJobsFromIndeed is not defined
+2024-12-15 20:05:17 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-15 20:05:17 [INFO]: Fetching jobs from Indeed for query: Design Architect, location: San Francisco, CA
+2024-12-15 20:05:17 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-15 20:05:18 [ERROR]: Error fetching jobs from Indeed: Request failed with status code 403
+2024-12-15 20:05:18 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Indeed
+2024-12-15 20:05:20 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-15 20:07:01 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-15 20:07:01 [INFO]: Fetching jobs from Indeed for query: Design Architect, location: San Francisco, CA, url: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-15 20:07:01 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-15 20:07:01 [ERROR]: Error fetching jobs from Indeed: Request failed with status code 403
+2024-12-15 20:07:01 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Indeed
+2024-12-15 20:07:06 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-15 20:08:37 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-15 20:08:37 [INFO]: Fetching jobs from Indeed for query: Design Architect, location: San Francisco, CA, url: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-15 20:08:37 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-15 20:08:37 [ERROR]: Error fetching jobs from Indeed: Request failed with status code 403
+2024-12-15 20:08:37 [ERROR]: Error in sending job notifications: log is not defined
+2024-12-15 20:08:39 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-15 20:09:26 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-15 20:09:26 [INFO]: Fetching jobs from Indeed for query: Design Architect, location: San Francisco, CA, url: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-15 20:09:26 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-15 20:09:27 [ERROR]: Error in sending job notifications: log is not defined
+2024-12-15 20:09:31 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-15 20:10:07 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-15 20:10:07 [INFO]: Fetching jobs from Indeed for query: Design Architect, location: San Francisco, CA, url: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-15 20:10:07 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-15 20:10:07 [ERROR]: Error fetching jobs from Indeed: Request failed with status code 403
+2024-12-15 20:10:07 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Indeed
+2024-12-15 20:10:13 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-15 20:21:01 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-15 20:21:01 [INFO]: Fetching jobs from Indeed for query: Design Architect, location: San Francisco, CA, url: https://rss.indeed.com/rss?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-15 20:21:01 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-15 20:21:01 [ERROR]: Error fetching jobs from Indeed: Request failed with status code 403
+2024-12-15 20:21:01 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Indeed
+2024-12-15 20:21:05 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:18:33 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:18:33 [INFO]: Fetching jobs from Indeed for query: Design Architect, location: San Francisco, CA, url: https://rss.indeed.com/rss?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-22 20:18:33 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:18:33 [ERROR]: Error fetching jobs from Indeed: Request failed with status code 403
+2024-12-22 20:18:33 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Indeed
+2024-12-22 20:18:37 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:23:14 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:23:14 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:23:18 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:23:21 [INFO]: Fetched 0 jobs from Indeed successfully
+2024-12-22 20:23:21 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 0
+2024-12-22 20:23:21 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 20:24:14 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:24:14 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:24:17 [INFO]: Fetched 0 jobs from Indeed successfully
+2024-12-22 20:24:19 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:24:19 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 0
+2024-12-22 20:24:19 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 20:25:18 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:25:18 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:25:20 [INFO]: Fetched 0 jobs from Indeed successfully
+2024-12-22 20:25:22 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:25:22 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 0
+2024-12-22 20:25:22 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 20:31:26 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:31:26 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:31:28 [INFO]: Constructed URL for pupeteer: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-22 20:31:28 [INFO]: Page info 1: [object Object]
+2024-12-22 20:31:29 [INFO]: Page info 2: [object Object]
+2024-12-22 20:31:29 [ERROR]: Error fetching jobs from Indeed: logger is not defined
+2024-12-22 20:31:29 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Indeed
+2024-12-22 20:31:32 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:32:13 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:32:13 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:32:14 [INFO]: Constructed URL for pupeteer: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-22 20:32:14 [INFO]: Page info 1: [object Object]
+2024-12-22 20:32:15 [INFO]: Page info 2: [object Object]
+2024-12-22 20:32:15 [INFO]: Page info 4: [object Object]
+2024-12-22 20:32:15 [INFO]: Fetched 0 jobs from Indeed successfully
+2024-12-22 20:32:18 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:32:18 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 0
+2024-12-22 20:32:18 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 20:33:04 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:33:04 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:33:06 [INFO]: Constructed URL for pupeteer: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-22 20:33:06 [INFO]: Page info 1: [object Object]
+2024-12-22 20:33:07 [INFO]: Page info 2: [object Object]
+2024-12-22 20:33:07 [INFO]: Page info 4: [object Object]
+2024-12-22 20:33:07 [INFO]: Fetched 0 jobs from Indeed successfully
+2024-12-22 20:33:07 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:33:07 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 0
+2024-12-22 20:33:07 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 20:33:37 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:33:37 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:33:38 [INFO]: Constructed URL for pupeteer: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-22 20:33:38 [INFO]: Page info 1: [object Object]
+2024-12-22 20:33:40 [INFO]: Page info 2: [object Object]
+2024-12-22 20:33:40 [INFO]: Page info 4: [object Object]
+2024-12-22 20:33:40 [INFO]: Fetched 0 jobs from Indeed successfully
+2024-12-22 20:33:41 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:33:41 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 0
+2024-12-22 20:33:41 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 20:50:20 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 20:50:20 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 20:50:22 [INFO]: Constructed URL for pupeteer: https://www.indeed.com/jobs?q=Design%20Architect&l=San%20Francisco%2C%20CA
+2024-12-22 20:50:22 [INFO]: Page info 1: [object Object]
+2024-12-22 20:50:23 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 20:50:24 [INFO]: Page info 2: [object Object]
+2024-12-22 20:50:24 [INFO]: Page info 4: [object Object]
+2024-12-22 20:50:24 [INFO]: Fetched 0 jobs from Indeed successfully
+2024-12-22 20:50:24 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 0
+2024-12-22 20:50:24 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 22:56:13 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 22:56:13 [INFO]: Fetching jobs from Archinect for query: Design Architect
+2024-12-22 22:56:14 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 22:56:14 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 22:56:15 [INFO]: Constructed URL for Puppeteer: https://www.google.com/search?q=Design%20Architect%20jobs%20in%20San%20Francisco%2C%20CA
+2024-12-22 22:56:15 [INFO]: Fetched 0 jobs from Google successfully
+2024-12-22 22:56:29 [INFO]: Fetched 0 jobs from Archinect successfully
+2024-12-22 22:56:29 [INFO]: Fetched jobs from sources. Indeed: 0, Archinect: 10
+2024-12-22 22:56:29 [ERROR]: Error in sending job notifications: filterJobs is not defined
+2024-12-22 22:57:55 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 22:57:55 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 22:57:55 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 22:57:55 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-22 22:59:31 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 22:59:32 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 22:59:32 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 22:59:32 [INFO]: Fetched Data: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2024-12-22 22:59:32 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-22 23:07:21 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 23:07:21 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 23:07:21 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 23:07:21 [INFO]: Fetched Data: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2024-12-22 23:07:21 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-22 23:07:24 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 23:07:24 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 23:07:24 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 23:07:24 [INFO]: Fetched Data: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2024-12-22 23:07:24 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-22 23:07:26 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 23:07:26 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 23:07:26 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 23:07:26 [INFO]: Fetched Data: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2024-12-22 23:07:26 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-22 23:09:12 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 23:09:13 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 23:09:13 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 23:09:13 [INFO]: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2024-12-22 23:09:13 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-22 23:09:50 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 23:09:51 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 23:09:51 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 23:09:51 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-22 23:10:11 [INFO]: Received request to send filtered jobs with filters: {"keywords":["Design Architect"],"locations":["San Francisco, CA"]}
+2024-12-22 23:10:11 [INFO]: Fetched results from Google Custom Search Engine for query: Design Architect, location: San Francisco, CA
+2024-12-22 23:10:11 [INFO]: Fetched 10 jobs successfully from Google Custom Search Engine
+2024-12-22 23:10:11 [ERROR]: Error in sending job notifications: Cannot read properties of undefined (reading 'length')
+2024-12-24 14:56:50 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"]}
+2024-12-24 14:56:50 [INFO]: Fetched results from Juju API for keyword: architect, location: California, category: undefined
+2024-12-24 14:56:50 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 14:56:50 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 14:57:37 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"]}
+2024-12-24 14:57:37 [INFO]: Fetched results from Juju API for keyword: architect, location: California, category: undefined
+2024-12-24 14:57:37 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 14:57:37 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:00:37 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"]}
+2024-12-24 15:00:38 [INFO]: Fetched results from Juju API for keyword: architect, 
+ location: California,
+ category: undefined, 
+ no of results: 10, 
+ url: https://www.juju.com/jobs
+2024-12-24 15:00:38 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 15:00:38 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:01:45 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"]}
+2024-12-24 15:01:46 [INFO]: Fetched results from Juju API for keyword: architect, 
+ location: California,
+ category: undefined, 
+ no of results: 10, 
+ url: https://www.juju.com/jobs
+2024-12-24 15:01:46 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 15:01:46 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:04:00 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:04:00 [ERROR]: Error fetching jobs from Juju API: Request failed with status code 400
+2024-12-24 15:04:00 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:04:21 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:04:22 [ERROR]: Error fetching jobs from Juju API: Request failed with status code 400
+2024-12-24 15:04:22 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:04:44 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:04:44 [ERROR]: Error fetching jobs from Juju API: Request failed with status code 400
+2024-12-24 15:04:44 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:05:46 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:05:46 [ERROR]: Error fetching jobs from Juju API: Request failed with status code 400
+2024-12-24 15:05:46 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:05:53 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:05:54 [ERROR]: Error fetching jobs from Juju API: Request failed with status code 400
+2024-12-24 15:05:54 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:09:13 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:09:14 [INFO]: Fetched results from Juju API for keyword: architect, 
+ location: California,
+ category: construction, 
+ no of results: 4, 
+ url: https://www.juju.com/jobs
+2024-12-24 15:09:14 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 15:09:14 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:10:02 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:10:03 [INFO]: Fetched results from Juju API for keyword: architect, 
+ location: California,
+ category: construction, 
+ no of results: 4, 
+ url: https://www.juju.com/jobs
+2024-12-24 15:10:03 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 15:10:03 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:10:28 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:10:28 [INFO]: Fetched results from Juju API for keyword: architect, 
+ location: California,
+ category: construction, 
+ no of results: 4, 
+ url: https://www.juju.com/jobs
+2024-12-24 15:10:28 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 15:10:28 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:14:33 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:14:34 [INFO]: Fetched results from Juju API for keyword: architect, 
+ location: California,
+ category: construction, 
+ no of results: 4, 
+ url: https://www.juju.com/jobs
+2024-12-24 15:14:34 [ERROR]: Error fetching jobs from Juju API: Unexpected token '<', "<!doctype "... is not valid JSON
+2024-12-24 15:14:34 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:16:11 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:16:12 [INFO]: Fetched results from Juju API for keyword: architect, 
+ location: California,
+ category: construction, 
+ no of results: 4, 
+ url: https://www.juju.com/jobs
+2024-12-24 15:16:12 [ERROR]: Error fetching jobs from Juju API: Cannot read properties of undefined (reading 'channel')
+2024-12-24 15:16:12 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:19:55 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:19:55 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:19:55 [INFO]: Filtered jobs count: 0
+2024-12-24 15:20:58 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:20:59 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:20:59 [INFO]: Filtered jobs count: 0
+2024-12-24 15:24:20 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:24:21 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:24:21 [INFO]: Filtered jobs count: 0
+2024-12-24 15:24:45 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:24:46 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:24:46 [INFO]: Filtered jobs count: 0
+2024-12-24 15:27:24 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:27:25 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:27:25 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:27:25 [INFO]: Filtered jobs count: 0
+2024-12-24 15:27:25 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:28:40 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:28:41 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:28:41 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:28:41 [INFO]: Filtered jobs count: 0
+2024-12-24 15:28:41 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:32:54 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:32:55 [INFO]: HTML Response for Debugging:
+2024-12-24 15:32:55 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:32:55 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:32:55 [INFO]: Filtered jobs count: 0
+2024-12-24 15:32:55 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:35:06 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:35:06 [INFO]: HTML Response for Debugging:
+2024-12-24 15:35:06 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:35:06 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:35:06 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:35:06 [INFO]: Filtered jobs count: 0
+2024-12-24 15:35:07 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:35:33 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:35:34 [INFO]: HTML Response for Debugging:
+2024-12-24 15:35:34 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:35:34 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:35:34 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:35:34 [INFO]: Filtered jobs count: 0
+2024-12-24 15:35:34 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:36:20 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:36:21 [INFO]: HTML Response for Debugging:
+2024-12-24 15:36:21 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:36:21 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:36:21 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:36:21 [INFO]: Filtered jobs count: 0
+2024-12-24 15:36:21 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:36:42 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:36:42 [INFO]: HTML Response for Debugging:
+2024-12-24 15:36:43 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:36:43 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:36:43 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:36:43 [INFO]: Filtered jobs count: 0
+2024-12-24 15:36:43 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:39:44 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:39:45 [INFO]: HTML Response for Debugging:
+2024-12-24 15:39:45 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:39:45 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=P1D7rUKmTtCXw2rb4161Cw&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA)
+2024-12-24 15:39:45 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=F5ZU2a9NRO-aDIv5lshzRw&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA)
+2024-12-24 15:39:45 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=HNFhOqswQTypmYyVtUdVWg&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA)
+2024-12-24 15:39:45 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=q_YFPdg8QmC-vIo_tTDnzg&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA)
+2024-12-24 15:39:45 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:39:45 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:39:45 [INFO]: Filtered jobs count: 0
+2024-12-24 15:39:45 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:40:48 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:40:49 [INFO]: HTML Response for Debugging:
+2024-12-24 15:40:49 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:40:49 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=5H7pceTNShyQJAxjjFUFKQ&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA)
+2024-12-24 15:40:49 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=MGlVN6Y8S2-jd6EBsvvBJg&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA)
+2024-12-24 15:40:49 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=yL-ToIRURuW3aPnFQQWK2A&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA)
+2024-12-24 15:40:49 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=Yw5TXDLITXO6LDD90RBYrQ&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA)
+2024-12-24 15:40:49 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:40:49 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:40:49 [INFO]: Filtered jobs count: 0
+2024-12-24 15:40:49 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:41:30 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:41:31 [INFO]: HTML Response for Debugging:
+2024-12-24 15:41:31 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:41:31 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=8Hw1GB6KSt-a7Pb3n-XfXA&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:41:31 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=7ZGhyN19RLeEmFZDm1HuEg&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:41:31 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=MKCR0ixySdqykBMtcJwjpQ&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:41:31 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=HsZilkNzShy1-BhPoLpzgQ&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:41:31 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:41:31 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:41:31 [INFO]: Filtered jobs count: 0
+2024-12-24 15:41:31 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:43:07 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:43:08 [INFO]: HTML Response for Debugging:
+2024-12-24 15:43:08 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:43:08 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=-ep8TUpBTYaqnJMCRAs0bg&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:43:08 [ERROR]: Error fetching jobs from Juju API: c is not defined
+2024-12-24 15:43:08 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:43:26 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:43:27 [INFO]: HTML Response for Debugging:
+2024-12-24 15:43:27 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:43:27 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=xCKnmdMASY6ySBo36KH78g&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:43:27 [ERROR]: Error fetching jobs from Juju API: c is not defined
+2024-12-24 15:43:27 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:43:28 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:43:29 [INFO]: HTML Response for Debugging:
+2024-12-24 15:43:29 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:43:29 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=XI2RAULmQzeZUxJcxGOCFg&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:43:29 [ERROR]: Error fetching jobs from Juju API: c is not defined
+2024-12-24 15:43:29 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:43:55 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:43:55 [INFO]: HTML Response for Debugging:
+2024-12-24 15:43:55 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:43:55 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=v2TE2ZrUTyuC1M6p2qttkw&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:43:55 [ERROR]: Error fetching jobs from Juju API: c is not defined
+2024-12-24 15:43:55 [ERROR]: Error in sending job notifications: Failed to fetch jobs from Juju API
+2024-12-24 15:44:41 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:44:41 [INFO]: HTML Response for Debugging:
+2024-12-24 15:44:41 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:44:41 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=9rDN7eUtRGC4lvi2YYmjaA&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:44:41 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=-ONTW7ZARYmcPX927z3gPA&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:44:41 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=mVNn-81BSn-xRAbESvNf6g&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:44:41 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=WPijBJ2xQROiSy_Ulre6oQ&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:44:41 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:44:41 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:44:41 [INFO]: Filtered jobs count: 0
+2024-12-24 15:44:42 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:46:04 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:46:04 [INFO]: HTML Response for Debugging:
+2024-12-24 15:46:04 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:46:04 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=vDixelHJQJCulL1RHj7fHw&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:46:04 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=HgDRlep0Q4-G-Xt-g29RyQ&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:46:04 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=QGzMhDvcRUGEs8M25Xz60g&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:46:04 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=-SjdxRSIQpSBrCmDYHT_rw&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:46:04 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:46:04 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:46:04 [INFO]: Filtered jobs count: 0
+2024-12-24 15:46:05 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:47:45 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:47:45 [INFO]: HTML Response for Debugging:
+2024-12-24 15:47:45 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:47:45 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=IwfaHB1TQRqKYcFTSKChsw&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:47:45 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=T68g4h_zSLG7TE1sFfIG3Q&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:47:45 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=lYmI8Ri_SyyYn0JP6y6gxw&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:47:45 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=M0FEE2zRRqOexYom-SH1uw&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:47:45 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:47:45 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:47:45 [INFO]: Filtered jobs count: 0
+2024-12-24 15:47:45 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:48:13 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:48:13 [INFO]: HTML Response for Debugging:
+2024-12-24 15:48:13 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:48:13 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=R0YDs87XQPCAOAJ8i2TxLQ&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:48:13 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=W4ijZyE1SN2gkupGl77zQw&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:48:13 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=885JtlaXQKWydRwJFX7KNg&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:48:13 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=c5IFo-QVREKiFAOj73CvQA&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:48:13 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:48:13 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:48:13 [INFO]: Filtered jobs count: 0
+2024-12-24 15:48:14 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:48:22 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:48:23 [INFO]: HTML Response for Debugging:
+2024-12-24 15:48:23 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:48:23 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=PQmd9ubnQCa9VQAnyA_JBA&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:48:23 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=Y0_cksoETDusLZWqKPgcxA&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:48:23 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=US75iYDsRSCQXfMGv3OpBA&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:48:23 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=AJJG8MXyQvSpU1hFAO4oVQ&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:48:23 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:48:23 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:48:23 [INFO]: Filtered jobs count: 0
+2024-12-24 15:48:23 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:49:18 [INFO]: Received request to send filtered jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:49:19 [INFO]: HTML Response for Debugging:
+2024-12-24 15:49:19 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:49:19 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=StM6y83QT8mdlU6oMzI6DQ&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:49:19 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=yhlBlPlVS-6roxSxTt0cUA&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:49:19 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=a-lAhxXLRkGMYD94jv8hog&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:49:19 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=dP0w7fv0TOiCFhAPxxrIiA&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:49:19 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:49:19 [INFO]: Fetched data from juju - [object Object],[object Object],[object Object],[object Object]
+2024-12-24 15:49:19 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:49:19 [INFO]: Filtered jobs count: 0
+2024-12-24 15:49:19 [INFO]: No jobs matched filters. Sent empty notification to Slack.
+2024-12-24 15:53:57 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":4}
+2024-12-24 15:53:58 [INFO]: HTML Response for Debugging:
+2024-12-24 15:53:58 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:53:58 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=WT72eZsvQ0qM4GZzNdYDCg&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 15:53:58 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=7EEbRyRIQimWEXflerwbEA&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 15:53:58 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=0q0W-Pi9Szq0lyPjco4mFQ&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:53:58 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=gA-D-21lSvSdQXdu8gc_pw&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 15:53:58 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 15:53:58 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 15:53:58 [INFO]: Processed jobs count: 4
+2024-12-24 15:53:58 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-24 15:53:58 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 15:53:59 [INFO]: Sent job notification to Slack: Sr. Construction Project Manager
+2024-12-24 15:53:59 [INFO]: Sent job notification to Slack: Senior Project Managers I & II
+2024-12-24 15:55:30 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["Texas"],"category":"construction","results":5}
+2024-12-24 15:55:31 [INFO]: HTML Response for Debugging:
+2024-12-24 15:55:31 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 15:55:31 [INFO]: title - Project/Senior Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6t?impression_id=QhE22ZM5SDed_lW0DqkLmw&c=construction&k=architect&cluster_id=778960270&l=Texas 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-24 15:55:31 [INFO]: title - Architectural Designer (Architect 3) 
+ link - https://www.juju.com/job/00000000ed09bl?impression_id=fYxilqp4TeS46Z2QrjhO-w&c=construction&k=architect&cluster_id=778305260&l=Texas 
+ company - CDM Smith
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-24 15:55:31 [INFO]: title - Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6r?impression_id=yZhp7n1lQ_CAO3dx852RHg&c=construction&k=architect&cluster_id=778960269&l=Texas 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-24 15:55:31 [INFO]: title - Senior Architect - Mission Critical (Austin) 
+ link - https://www.juju.com/job/00000000ebwwpw?impression_id=ohVwINaATKuIkWOMBWdWng&c=construction&k=architect&cluster_id=777863052&l=Texas 
+ company - Burns & McDonnell
+            (Austin, TX) 
+ location - (Austin, TX) 
+
+2024-12-24 15:55:31 [INFO]: title - Architectural Services Manager 
+ link - https://www.juju.com/job/00000000efkjis?impression_id=iHC4PzI4STipZFFP7OjD8g&c=construction&k=architect&cluster_id=779284999&l=Texas 
+ company - MD Anderson Cancer Center
+            (Houston, TX) 
+ location - (Houston, TX) 
+
+2024-12-24 15:55:31 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 15:55:31 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 15:55:31 [INFO]: Processed jobs count: 5
+2024-12-24 15:55:31 [INFO]: Sent job notification to Slack: Project/Senior Architect - Engineering & Construction
+2024-12-24 15:55:31 [INFO]: Sent job notification to Slack: Architectural Designer (Architect 3)
+2024-12-24 15:55:31 [INFO]: Sent job notification to Slack: Architect - Engineering & Construction
+2024-12-24 15:55:31 [INFO]: Sent job notification to Slack: Senior Architect - Mission Critical (Austin)
+2024-12-24 15:55:32 [INFO]: Sent job notification to Slack: Architectural Services Manager
+2024-12-24 17:15:30 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["Texas"],"category":"construction","results":5}
+2024-12-24 17:15:31 [INFO]: HTML Response for Debugging:
+2024-12-24 17:15:31 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 17:15:31 [INFO]: title - Project/Senior Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6t?impression_id=YBlz-oNdRcqQTQ8Rix0ySg&c=construction&k=architect&cluster_id=778960270&l=Texas 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-24 17:15:31 [INFO]: title - Architectural Designer (Architect 3) 
+ link - https://www.juju.com/job/00000000ed09bl?impression_id=w4PyHQ4RTlmNiNAmv4gZpQ&c=construction&k=architect&cluster_id=778305260&l=Texas 
+ company - CDM Smith
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-24 17:15:31 [INFO]: title - Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6r?impression_id=Ui42ZdEeRmuONelyo9PVBg&c=construction&k=architect&cluster_id=778960269&l=Texas 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-24 17:15:31 [INFO]: title - Senior Architect - Mission Critical (Austin) 
+ link - https://www.juju.com/job/00000000ebwwpw?impression_id=KVt3Lx4yTrWXwRmOD3OAEA&c=construction&k=architect&cluster_id=777863052&l=Texas 
+ company - Burns & McDonnell
+            (Austin, TX) 
+ location - (Austin, TX) 
+
+2024-12-24 17:15:31 [INFO]: title - Architectural Services Manager 
+ link - https://www.juju.com/job/00000000efkjis?impression_id=pH7xP4z0RpGoqvSZBiIfpQ&c=construction&k=architect&cluster_id=779284999&l=Texas 
+ company - MD Anderson Cancer Center
+            (Houston, TX) 
+ location - (Houston, TX) 
+
+2024-12-24 17:15:31 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 17:15:31 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 17:15:31 [INFO]: Processed jobs count: 5
+2024-12-24 17:15:31 [INFO]: Sent job notification to Slack: Project/Senior Architect - Engineering & Construction
+2024-12-24 17:15:31 [INFO]: Sent job notification to Slack: Architectural Designer (Architect 3)
+2024-12-24 17:15:31 [INFO]: Sent job notification to Slack: Architect - Engineering & Construction
+2024-12-24 17:15:31 [INFO]: Sent job notification to Slack: Senior Architect - Mission Critical (Austin)
+2024-12-24 17:15:32 [INFO]: Sent job notification to Slack: Architectural Services Manager
+2024-12-24 17:56:42 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 17:56:42 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 17:56:44 [INFO]: ChatGPT API call successful.
+2024-12-24 17:56:44 [INFO]: Job descriptions analysis completed.
+2024-12-24 17:56:48 [INFO]: Starting resume enhancement process.
+2024-12-24 17:56:48 [INFO]: Analyzing 6 job descriptions for resume enhancement.
+2024-12-24 17:56:48 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 17:56:48 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 17:56:50 [INFO]: ChatGPT API call successful.
+2024-12-24 17:56:50 [INFO]: Job descriptions analysis completed.
+2024-12-24 17:56:50 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 17:56:50 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 17:56:52 [INFO]: ChatGPT API call successful.
+2024-12-24 17:56:52 [INFO]: Resume enhancement completed successfully.
+2024-12-24 17:59:56 [INFO]: Starting resume enhancement process.
+2024-12-24 17:59:56 [INFO]: Analyzing 6 job descriptions for resume enhancement.
+2024-12-24 17:59:56 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 17:59:56 [ERROR]: Error in analyzeJobDescriptions: logger is not defined
+2024-12-24 17:59:56 [ERROR]: Error in enhanceResume: Request failed with status code 500
+2024-12-24 18:01:01 [INFO]: Starting resume enhancement process.
+2024-12-24 18:01:01 [INFO]: Analyzing 6 job descriptions for resume enhancement.
+2024-12-24 18:01:01 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:01:01 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 18:01:01 [ERROR]: Error connecting to ChatGPT: axios is not defined
+2024-12-24 18:01:01 [ERROR]: Error in analyzeJobDescriptions: ChatGPT API request failed.
+2024-12-24 18:01:01 [ERROR]: Error in enhanceResume: Request failed with status code 500
+2024-12-24 18:01:29 [INFO]: Starting resume enhancement process.
+2024-12-24 18:01:29 [INFO]: Analyzing 6 job descriptions for resume enhancement.
+2024-12-24 18:01:29 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:01:29 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 18:01:32 [INFO]: ChatGPT API call successful.
+2024-12-24 18:01:32 [INFO]: Job descriptions analysis completed.
+2024-12-24 18:01:32 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 18:01:32 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 18:01:35 [INFO]: ChatGPT API call successful.
+2024-12-24 18:01:35 [INFO]: Resume enhancement completed successfully.
+2024-12-24 18:01:39 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:01:39 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 18:01:42 [INFO]: ChatGPT API call successful.
+2024-12-24 18:01:42 [INFO]: Job descriptions analysis completed.
+2024-12-24 18:05:00 [INFO]: Starting resume enhancement process.
+2024-12-24 18:05:00 [INFO]: Analyzing 6 job descriptions for resume enhancement.
+2024-12-24 18:05:00 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:05:00 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 18:05:03 [INFO]: ChatGPT API call successful.
+2024-12-24 18:05:03 [INFO]: Job descriptions analysis completed.
+2024-12-24 18:05:03 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 18:05:03 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 18:05:06 [INFO]: ChatGPT API call successful.
+2024-12-24 18:05:06 [INFO]: Resume enhancement completed successfully.

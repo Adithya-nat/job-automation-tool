@@ -1,0 +1,2546 @@
+2024-12-22 23:06:38 [ERROR]: Error in sending job notifications: Incoming webhook URL is required
+2024-12-22 23:07:08 [ERROR]: Error in sending job notifications: Incoming webhook URL is required
+2024-12-24 18:14:28 [INFO]: HTML Response for Debugging:
+2024-12-24 18:14:28 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 18:14:28 [INFO]: title - undefined 
+ link - undefined 
+ company - Test Company (Test Location) 
+ location - (Test Location) 
+
+2024-12-24 18:14:28 [INFO]: Extracted 1 jobs from Juju API
+2024-12-24 18:14:28 [ERROR]: Error fetching jobs from Juju API: API error
+2024-12-24 18:23:51 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:23:51 [INFO]: Making ChatGPT API call with model: undefined, maxTokens: 500
+2024-12-24 18:23:51 [ERROR]: Error connecting to ChatGPT: [object Object]
+2024-12-24 18:23:51 [ERROR]: Error in analyzeJobDescriptions: ChatGPT API request failed.
+2024-12-24 18:24:01 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:24:01 [INFO]: Making ChatGPT API call with model: undefined, maxTokens: 500
+2024-12-24 18:24:01 [ERROR]: Error connecting to ChatGPT: [object Object]
+2024-12-24 18:24:01 [ERROR]: Error in analyzeJobDescriptions: ChatGPT API request failed.
+2024-12-24 18:24:51 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:24:51 [INFO]: Making ChatGPT API call with model: undefined, maxTokens: 500
+2024-12-24 18:24:51 [ERROR]: Error connecting to ChatGPT: [object Object]
+2024-12-24 18:24:51 [ERROR]: Error in analyzeJobDescriptions: ChatGPT API request failed.
+2024-12-24 18:26:11 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:26:11 [INFO]: Making ChatGPT API call with model: undefined, maxTokens: 500 key: undefined
+2024-12-24 18:26:11 [ERROR]: Error connecting to ChatGPT: [object Object]
+2024-12-24 18:26:11 [ERROR]: Error in analyzeJobDescriptions: ChatGPT API request failed.
+2024-12-24 18:27:25 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:27:25 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500 key: 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
+2024-12-24 18:27:27 [INFO]: ChatGPT API call successful.
+2024-12-24 18:27:27 [INFO]: Job descriptions analysis completed.
+2024-12-24 18:27:30 [INFO]: Starting resume enhancement process.
+2024-12-24 18:27:30 [INFO]: Analyzing 6 job descriptions for resume enhancement.
+2024-12-24 18:27:30 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-24 18:27:30 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500 key: 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
+2024-12-24 18:27:32 [INFO]: ChatGPT API call successful.
+2024-12-24 18:27:32 [INFO]: Job descriptions analysis completed.
+2024-12-24 18:27:32 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 18:27:32 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800 key: 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
+2024-12-24 18:27:34 [INFO]: ChatGPT API call successful.
+2024-12-24 18:27:34 [INFO]: Resume enhancement completed successfully.
+2024-12-24 19:06:10 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":5}
+2024-12-24 19:06:10 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":5}
+2024-12-24 19:06:11 [INFO]: HTML Response for Debugging:
+2024-12-24 19:06:11 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 19:06:11 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=cIlVFi2aQD-fZtvv7NUudQ&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=oXpHmZqsTOKsSeo7CR1AEg&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=0wCHLZmSTLOQr8WRjT3MXw&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=UQmLs40cQU62F7XI0t9qwQ&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture 
+ link - https://www.juju.com/job/00000000efxbym?impression_id=vF0Ap3MPRMKJyLNVk472pA&c=construction&k=architect&cluster_id=779426172&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 19:06:11 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 19:06:11 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 19:06:11 [INFO]: Processed jobs count: 5
+2024-12-24 19:06:11 [INFO]: HTML Response for Debugging:
+2024-12-24 19:06:11 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 19:06:11 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=q4AB9NfcTyGN-3AGfyLqiw&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=slRpDOQOROmWQTCu7qxmYA&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=UVizI9poQj-nHMtSF8yC0g&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=K1ZvHp_SQj2NKpaUFXRbKg&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:06:11 [INFO]: title - Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture 
+ link - https://www.juju.com/job/00000000efxbym?impression_id=SdGHDR2oR8GDfbLx8RoA3w&c=construction&k=architect&cluster_id=779426172&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 19:06:11 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 19:06:11 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 19:06:11 [INFO]: Processed jobs count: 5
+2024-12-24 19:06:11 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-24 19:06:11 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-24 19:06:11 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 19:06:11 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 19:06:11 [INFO]: Sent job notification to Slack: Sr. Construction Project Manager
+2024-12-24 19:06:11 [INFO]: Sent job notification to Slack: Sr. Construction Project Manager
+2024-12-24 19:06:12 [INFO]: Sent job notification to Slack: Senior Project Managers I & II
+2024-12-24 19:06:12 [INFO]: Sent job notification to Slack: Senior Project Managers I & II
+2024-12-24 19:06:12 [INFO]: Sent job notification to Slack: Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture
+2024-12-24 19:06:12 [INFO]: Sent job notification to Slack: Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture
+2024-12-24 19:32:06 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":5}
+2024-12-24 19:32:06 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":5}
+2024-12-24 19:32:06 [INFO]: HTML Response for Debugging:
+2024-12-24 19:32:06 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 19:32:06 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=a4Ef0cXOR223WLbVOtdsTA&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=JB7hvuyUSP2YYabwkcWQZA&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=gezTld1_RI-GDQkVLz4T3A&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=kHFxA2L_T42I-KDsLf_j1g&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture 
+ link - https://www.juju.com/job/00000000efxbym?impression_id=4QuPHjh_QL-xKdjKjBVXsw&c=construction&k=architect&cluster_id=779426172&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 19:32:06 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 19:32:06 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 19:32:06 [INFO]: Processed jobs count: 5
+2024-12-24 19:32:06 [INFO]: HTML Response for Debugging:
+2024-12-24 19:32:06 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 19:32:06 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=gMzrPuEkQOCHosi5JQT_ow&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=gcl4Sd26Sdyyj-PeodK-7A&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=GKwF5zZfQJWU1Dm-tbO5mQ&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=Dn0BoJVyTQqOnZroRsC3iw&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 19:32:06 [INFO]: title - Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture 
+ link - https://www.juju.com/job/00000000efxbym?impression_id=rnpqtoCQS6iS0PEeUP8Lfw&c=construction&k=architect&cluster_id=779426172&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 19:32:06 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 19:32:06 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 19:32:06 [INFO]: Processed jobs count: 5
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Sr. Construction Project Manager
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Sr. Construction Project Manager
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Senior Project Managers I & II
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Senior Project Managers I & II
+2024-12-24 19:32:07 [INFO]: Sent job notification to Slack: Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture
+2024-12-24 19:32:08 [INFO]: Sent job notification to Slack: Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture
+2024-12-24 19:33:02 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"location":"Texas","category":"construction","results":5}
+2024-12-24 19:33:02 [ERROR]: Error in processing job notifications: Cannot read properties of undefined (reading '0')
+2024-12-24 19:36:13 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["Texas"],"category":"construction","results":5}
+2024-12-24 19:36:14 [INFO]: HTML Response for Debugging:
+2024-12-24 19:36:14 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 19:36:14 [INFO]: title - Project/Senior Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6t?impression_id=FA81Fd6mT22kp5iYe_-jWQ&c=construction&k=architect&cluster_id=778960270&l=Texas 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-24 19:36:14 [INFO]: title - Architectural Designer (Architect 3) 
+ link - https://www.juju.com/job/00000000ed09bl?impression_id=tZ3mE0aGRxy4n7F9Zg5rXA&c=construction&k=architect&cluster_id=778305260&l=Texas 
+ company - CDM Smith
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-24 19:36:14 [INFO]: title - Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6r?impression_id=ugj6bFY7RCWq3tijTa3k_g&c=construction&k=architect&cluster_id=778960269&l=Texas 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-24 19:36:14 [INFO]: title - Senior Architect - Mission Critical (Austin) 
+ link - https://www.juju.com/job/00000000ebwwpw?impression_id=g7h3xONLSlyku8DhfhPj5g&c=construction&k=architect&cluster_id=777863052&l=Texas 
+ company - Burns & McDonnell
+            (Austin, TX) 
+ location - (Austin, TX) 
+
+2024-12-24 19:36:14 [INFO]: title - Architectural Services Manager 
+ link - https://www.juju.com/job/00000000efkjis?impression_id=Z8CFKQqoS8qJxY7O-pWopw&c=construction&k=architect&cluster_id=779284999&l=Texas 
+ company - MD Anderson Cancer Center
+            (Houston, TX) 
+ location - (Houston, TX) 
+
+2024-12-24 19:36:14 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 19:36:14 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 19:36:14 [INFO]: Processed jobs count: 5
+2024-12-24 19:36:14 [INFO]: Sent job notification to Slack: Project/Senior Architect - Engineering & Construction
+2024-12-24 19:36:14 [INFO]: Sent job notification to Slack: Architectural Designer (Architect 3)
+2024-12-24 19:36:15 [INFO]: Sent job notification to Slack: Architect - Engineering & Construction
+2024-12-24 19:36:15 [INFO]: Sent job notification to Slack: Senior Architect - Mission Critical (Austin)
+2024-12-24 19:36:15 [INFO]: Sent job notification to Slack: Architectural Services Manager
+2024-12-24 22:13:40 [INFO]: Received request to send jobs with filters: {"keywords":["design architect"],"locations":["Arizona"],"category":"construction","results":5}
+2024-12-24 22:13:41 [INFO]: HTML Response for Debugging:
+2024-12-24 22:13:41 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:13:41 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=K86aY1EBTPG-5BGesy9G1Q&c=construction&k=design+architect&cluster_id=778274840&l=Arizona 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-24 22:13:41 [INFO]: title - Architectural Designer (Architect 3) 
+ link - https://www.juju.com/job/00000000ed09ba?impression_id=QvgDea0bTkaKFV5C045soQ&c=construction&k=design+architect&cluster_id=778305260&l=Arizona 
+ company - CDM Smith
+            (Phoenix, AZ) 
+ location - (Phoenix, AZ) 
+
+2024-12-24 22:13:41 [INFO]: title - Construction Project Manager 
+ link - https://www.juju.com/job/00000000efmur1?impression_id=-hQEHu0dR8avjgQLKkLTxg&c=construction&k=design+architect&cluster_id=779308185&l=Arizona 
+ company - AR Mays Construction
+            (Scottsdale, AZ) 
+ location - (Scottsdale, AZ) 
+
+2024-12-24 22:13:41 [INFO]: title - Senior Estimator (Phoenix, AZ) - Austin Commercial 
+ link - https://www.juju.com/job/00000000efg3o7?impression_id=4zfo1GXxQLOkgFK-hfbsqg&c=construction&k=design+architect&cluster_id=779235841&l=Arizona 
+ company - Austin Industries
+            (Phoenix, AZ) 
+ location - (Phoenix, AZ) 
+
+2024-12-24 22:13:41 [INFO]: title - Resident Engineer/ COTR(West) 
+ link - https://www.juju.com/job/00000000efqwu6?impression_id=CfstaCehQpOqVaQD4wLKBg&c=construction&k=design+architect&cluster_id=779361956&l=Arizona 
+ company - Jacobs
+            (Tempe, AZ) 
+ location - (Tempe, AZ) 
+
+2024-12-24 22:13:41 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:13:41 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:13:41 [INFO]: Processed jobs count: 5
+2024-12-24 22:13:41 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-24 22:13:42 [INFO]: Sent job notification to Slack: Architectural Designer (Architect 3)
+2024-12-24 22:13:42 [INFO]: Sent job notification to Slack: Construction Project Manager
+2024-12-24 22:13:42 [INFO]: Sent job notification to Slack: Senior Estimator (Phoenix, AZ) - Austin Commercial
+2024-12-24 22:13:42 [INFO]: Sent job notification to Slack: Resident Engineer/ COTR(West)
+2024-12-24 22:16:18 [INFO]: Received request to send jobs with filters: {"keywords":["Architect"],"locations":["New York"],"category":"construction","results":7}
+2024-12-24 22:16:18 [INFO]: HTML Response for Debugging:
+2024-12-24 22:16:18 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:16:18 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000eeqh84?impression_id=IVN2KM-7SV2gChOZHJ0cdQ&c=construction&k=Architect&cluster_id=778955602&l=New+York 
+ company - Research Foundation CUNY
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:16:18 [INFO]: title - Emergent Technology & Code Development Architect 
+ link - https://www.juju.com/job/00000000efq18v?impression_id=CEQLXTu_S1W2Caf9AUeE3w&c=construction&k=Architect&cluster_id=779344322&l=New+York 
+ company - City of New York
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:16:18 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=1osVIkvsSsWb2CdYvI84nw&c=construction&k=Architect&cluster_id=778713556&l=New+York 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 22:16:18 [INFO]: title - Engineering Auditor 
+ link - https://www.juju.com/job/00000000eefy9g?impression_id=BNnPCyCCS0W2g415bd1mKQ&c=construction&k=Architect&cluster_id=778795537&l=New+York 
+ company - City of New York
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:16:18 [INFO]: title - Project Manager 
+ link - https://www.juju.com/job/00000000ecm342?impression_id=9XT6QHfmQoSVJw6wsJx30w&c=construction&k=Architect&cluster_id=778133946&l=New+York 
+ company - City of New York
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:16:18 [INFO]: title - Senior Project Manager 
+ link - https://www.juju.com/job/00000000ecm366?impression_id=r7ldn-ThSoCXVXP1khIRLw&c=construction&k=Architect&cluster_id=778134001&l=New+York 
+ company - City of New York
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:16:18 [INFO]: title - Assistant Inspector, Construction 
+ link - https://www.juju.com/job/00000000efv8fl?impression_id=DCN6E17SQ1GNUyEPY_flZA&c=construction&k=Architect&cluster_id=779409095&l=New+York 
+ company - City of New York
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:16:18 [INFO]: Extracted 7 jobs from Juju API
+2024-12-24 22:16:18 [INFO]: Fetched jobs from Juju API: 7
+2024-12-24 22:16:18 [INFO]: Processed jobs count: 7
+2024-12-24 22:16:19 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:16:19 [INFO]: Sent job notification to Slack: Emergent Technology & Code Development Architect
+2024-12-24 22:16:19 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 22:16:19 [INFO]: Sent job notification to Slack: Engineering Auditor
+2024-12-24 22:16:19 [INFO]: Sent job notification to Slack: Project Manager
+2024-12-24 22:16:20 [INFO]: Sent job notification to Slack: Senior Project Manager
+2024-12-24 22:16:20 [INFO]: Sent job notification to Slack: Assistant Inspector, Construction
+2024-12-24 22:18:16 [INFO]: Received request to send jobs with filters: {"keywords":["Architect"],"locations":["United States"],"category":"construction","results":10}
+2024-12-24 22:18:17 [INFO]: HTML Response for Debugging:
+2024-12-24 22:18:17 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:18:17 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000eeqh84?impression_id=fom5FjjyQNO0kaDLCGThLA&c=construction&k=Architect&cluster_id=778955602&l=United+States 
+ company - Research Foundation CUNY
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:18:17 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=sa86-hSXSX-sB_Lu4aQBGg&c=construction&k=Architect&cluster_id=779076618&l=United+States 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 22:18:17 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=GvtR5tWPRdmn5zjNIdMneg&c=construction&k=Architect&cluster_id=778274840&l=United+States 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-24 22:18:17 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=9pq84JWoTs6bWNGozI2hAg&c=construction&k=Architect&cluster_id=779066880&l=United+States 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-24 22:18:17 [INFO]: title - Staff Architect 
+ link - https://www.juju.com/job/00000000efow6z?impression_id=fB77pGeQRFer2mWEeb_rfQ&c=construction&k=Architect&cluster_id=779335150&l=United+States 
+ company - State of Massachusetts
+            (Boston, MA) 
+ location - (Boston, MA) 
+
+2024-12-24 22:18:17 [INFO]: title - Emergent Technology & Code Development Architect 
+ link - https://www.juju.com/job/00000000efq18v?impression_id=ebnn9cI6S2CUfVS4l2X6PA&c=construction&k=Architect&cluster_id=779344322&l=United+States 
+ company - City of New York
+            (New York, NY) 
+ location - (New York, NY) 
+
+2024-12-24 22:18:17 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000efha6u?impression_id=gsCWQbnQRZmx3ncGxuyzdQ&c=construction&k=Architect&cluster_id=779252910&l=United+States 
+ company - Actalent
+            (Saginaw, MI) 
+ location - (Saginaw, MI) 
+
+2024-12-24 22:18:17 [INFO]: title - Software Systems Architect 
+ link - https://www.juju.com/job/00000000eelycs?impression_id=52LDdBTnTvig53cXcNT2LA&c=construction&k=Architect&cluster_id=778896377&l=United+States 
+ company - ITW
+            (Appleton, WI) 
+ location - (Appleton, WI) 
+
+2024-12-24 22:18:17 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ebtbzr?impression_id=KSL5l7lDSIen9dzWS5WLHw&c=construction&k=Architect&cluster_id=777825368&l=United+States 
+ company - Consolidated Construction Co., Inc
+            (Rapid City, SD) 
+ location - (Rapid City, SD) 
+
+2024-12-24 22:18:17 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000eft08x?impression_id=REIs5w_RSgCXKzK7EfYUrA&c=construction&k=Architect&cluster_id=779389650&l=United+States 
+ company - Actalent
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 22:18:17 [INFO]: Extracted 10 jobs from Juju API
+2024-12-24 22:18:17 [INFO]: Fetched jobs from Juju API: 10
+2024-12-24 22:18:17 [INFO]: Processed jobs count: 10
+2024-12-24 22:18:17 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:18:17 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:18:17 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-24 22:18:17 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:18:17 [INFO]: Sent job notification to Slack: Staff Architect
+2024-12-24 22:18:17 [INFO]: Sent job notification to Slack: Emergent Technology & Code Development Architect
+2024-12-24 22:18:18 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:18:18 [INFO]: Sent job notification to Slack: Software Systems Architect
+2024-12-24 22:18:18 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:18:18 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-24 22:18:41 [WARN]: Invalid inputs for resume enhancement.
+2024-12-24 22:24:54 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":5}
+2024-12-24 22:24:54 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["California"],"category":"construction","results":5}
+2024-12-24 22:24:55 [INFO]: HTML Response for Debugging:
+2024-12-24 22:24:55 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:24:55 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=hZK-FB36QCq_RpmzR3zjoA&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=Nxo7a2-jTxK71HKdnygFHg&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=07KB99IZSpGXG5pISB48bQ&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=DwFJ22FkRmaO5G8Sm6dZHQ&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture 
+ link - https://www.juju.com/job/00000000efxbym?impression_id=GPrbkDEgQACJYESdW6n83g&c=construction&k=architect&cluster_id=779426172&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 22:24:55 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:24:55 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:24:55 [INFO]: Processed jobs count: 5
+2024-12-24 22:24:55 [INFO]: HTML Response for Debugging:
+2024-12-24 22:24:55 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:24:55 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=Aa6q6XmySLeKJsVI93bp_w&c=construction&k=architect&cluster_id=779303700&l=California 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=hlPfx3eYRIaMVQ6u0jugvg&c=construction&k=architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Sr. Construction Project Manager 
+ link - https://www.juju.com/job/00000000eehmm5?impression_id=RpOTg75hRqWZjWMYTMWJqQ&c=construction&k=architect&cluster_id=778856801&l=California 
+ company - University of Southern California
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Senior Project Managers I & II 
+ link - https://www.juju.com/job/00000000ecez67?impression_id=jTlWSW26QYmGtDexWI9j1Q&c=construction&k=architect&cluster_id=778056405&l=California 
+ company - Element Consulting
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 22:24:55 [INFO]: title - Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture 
+ link - https://www.juju.com/job/00000000efxbym?impression_id=jz4dJJMsStymlKsxefh2Ow&c=construction&k=architect&cluster_id=779426172&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 22:24:55 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:24:55 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:24:55 [INFO]: Processed jobs count: 5
+2024-12-24 22:24:55 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-24 22:24:55 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-24 22:24:55 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 22:24:55 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 22:24:55 [INFO]: Sent job notification to Slack: Sr. Construction Project Manager
+2024-12-24 22:24:55 [INFO]: Sent job notification to Slack: Senior Project Managers I & II
+2024-12-24 22:24:55 [INFO]: Sent job notification to Slack: Sr. Construction Project Manager
+2024-12-24 22:24:56 [INFO]: Sent job notification to Slack: Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture
+2024-12-24 22:24:56 [INFO]: Sent job notification to Slack: Senior Project Managers I & II
+2024-12-24 22:24:56 [INFO]: Sent job notification to Slack: Construction Administration/ Site Observation/ Field Specialist in Landscape Architecture
+2024-12-24 22:25:22 [INFO]: Received request to send jobs with filters: {"keywords":["Architect"],"locations":["Oregon"],"category":"construction","results":5}
+2024-12-24 22:25:22 [INFO]: HTML Response for Debugging:
+2024-12-24 22:25:22 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:25:22 [INFO]: title - Resident Engineer/ COTR(West) 
+ link - https://www.juju.com/job/00000000efqwuw?impression_id=tLF8BKP-SY-HXYMH3jl8Rg&c=construction&k=Architect&cluster_id=779361956&l=Oregon 
+ company - Jacobs
+            (Portland, OR) 
+ location - (Portland, OR) 
+
+2024-12-24 22:25:22 [INFO]: title - Sr Project Manager - Retail Construction (Texas) 
+ link - https://www.juju.com/job/00000000efohxg?impression_id=4rqNDkyvRzOg0-kfM_2vWA&c=construction&k=Architect&cluster_id=779202894&l=Oregon 
+ company - CBRE
+            (Salem, OR) 
+ location - (Salem, OR) 
+
+2024-12-24 22:25:22 [INFO]: title - Construction Project Engineer 
+ link - https://www.juju.com/job/00000000eeb3m2?impression_id=CxOF-gLqTMOlzC2GovB-eg&c=construction&k=Architect&cluster_id=770139816&l=Oregon 
+ company - McKinstry
+            (Portland, OR) 
+ location - (Portland, OR) 
+
+2024-12-24 22:25:22 [INFO]: title - Superintendent - Water Construction 
+ link - https://www.juju.com/job/00000000eeb5fe?impression_id=CHWDPfZhTx2aw1X6Crs5WQ&c=construction&k=Architect&cluster_id=778788386&l=Oregon 
+ company - Kiewit
+            (Portland, OR) 
+ location - (Portland, OR) 
+
+2024-12-24 22:25:22 [INFO]: Extracted 4 jobs from Juju API
+2024-12-24 22:25:22 [INFO]: Fetched jobs from Juju API: 4
+2024-12-24 22:25:22 [INFO]: Processed jobs count: 4
+2024-12-24 22:25:23 [INFO]: Sent job notification to Slack: Resident Engineer/ COTR(West)
+2024-12-24 22:25:23 [INFO]: Sent job notification to Slack: Sr Project Manager - Retail Construction (Texas)
+2024-12-24 22:25:23 [INFO]: Sent job notification to Slack: Construction Project Engineer
+2024-12-24 22:25:23 [INFO]: Sent job notification to Slack: Superintendent - Water Construction
+2024-12-24 22:25:40 [WARN]: Invalid inputs for resume enhancement.
+2024-12-24 22:30:28 [INFO]: Received request to send jobs with filters: {"keywords":["Architect"],"locations":["Washington"],"category":"construction","results":5}
+2024-12-24 22:30:29 [INFO]: HTML Response for Debugging:
+2024-12-24 22:30:29 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:30:29 [INFO]: title - Ironworker 
+ link - https://www.juju.com/job/00000000efxyw8?impression_id=q9oAlZ5NRkizpxXpGt3dxw&c=construction&k=Architect&cluster_id=779433658&l=Washington 
+ company - Garco Construction Inc.
+            (Spokane, WA) 
+ location - (Spokane, WA) 
+
+2024-12-24 22:30:29 [INFO]: title - Operator 
+ link - https://www.juju.com/job/00000000efxyw5?impression_id=44QuNpXbT-el51SX5k8pmQ&c=construction&k=Architect&cluster_id=779433661&l=Washington 
+ company - Garco Construction Inc.
+            (Spokane, WA) 
+ location - (Spokane, WA) 
+
+2024-12-24 22:30:29 [INFO]: title - Laborer 
+ link - https://www.juju.com/job/00000000efxyw7?impression_id=l-fz9M0HQ3OTLOiLRfk7Ew&c=construction&k=Architect&cluster_id=779433663&l=Washington 
+ company - Garco Construction Inc.
+            (Spokane, WA) 
+ location - (Spokane, WA) 
+
+2024-12-24 22:30:29 [INFO]: title - Carpenter 
+ link - https://www.juju.com/job/00000000efxyw3?impression_id=jkCwfif2Tz6J5VLebTEnLg&c=construction&k=Architect&cluster_id=779433659&l=Washington 
+ company - Garco Construction Inc.
+            (Spokane, WA) 
+ location - (Spokane, WA) 
+
+2024-12-24 22:30:29 [INFO]: title - Carpenter 
+ link - https://www.juju.com/job/00000000efxyw2?impression_id=_m2U9qxqSFS5_W4s-00laA&c=construction&k=Architect&cluster_id=779433662&l=Washington 
+ company - Garco Construction Inc.
+            (Cle Elum, WA) 
+ location - (Cle Elum, WA) 
+
+2024-12-24 22:30:29 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:30:29 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:30:29 [INFO]: Processed jobs count: 5
+2024-12-24 22:30:29 [INFO]: Sent job notification to Slack: Ironworker
+2024-12-24 22:30:29 [INFO]: Sent job notification to Slack: Operator
+2024-12-24 22:30:30 [INFO]: Sent job notification to Slack: Laborer
+2024-12-24 22:30:30 [INFO]: Sent job notification to Slack: Carpenter
+2024-12-24 22:30:30 [INFO]: Sent job notification to Slack: Carpenter
+2024-12-24 22:30:52 [WARN]: Invalid inputs for resume enhancement.
+2024-12-24 22:35:33 [INFO]: Received request to send jobs with filters: {"keywords":["Design Architect"],"locations":["United States"],"category":"construction","results":5}
+2024-12-24 22:35:34 [INFO]: HTML Response for Debugging:
+2024-12-24 22:35:34 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:35:34 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=hE46k8uSRqeawWXo8WWDFA&c=construction&k=Design+Architect&cluster_id=778713556&l=United+States 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 22:35:34 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=zFwAOmcFRTSyYq0CsSKgYg&c=construction&k=Design+Architect&cluster_id=779076618&l=United+States 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 22:35:34 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=YAV3AZbYTGScjfPOXEdNwg&c=construction&k=Design+Architect&cluster_id=779219132&l=United+States 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 22:35:34 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=Z4J89CqrR3qE2v_h6zIv8w&c=construction&k=Design+Architect&cluster_id=779333114&l=United+States 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-24 22:35:34 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=Q6dUn7HHTFS9zPzSF7w4qw&c=construction&k=Design+Architect&cluster_id=779332275&l=United+States 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-24 22:35:34 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:35:34 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:35:34 [INFO]: Processed jobs count: 5
+2024-12-24 22:35:34 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 22:35:34 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:35:34 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 22:35:35 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-24 22:35:35 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-24 22:39:48 [INFO]: Received request to send jobs with filters: {"keywords":["Design Architect"],"locations":["United States"],"category":"design","results":5}
+2024-12-24 22:39:48 [INFO]: HTML Response for Debugging:
+2024-12-24 22:39:48 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:39:48 [INFO]: title - UX Architect, Design Systems 
+ link - https://www.juju.com/job/00000000ebp7vc?impression_id=3E9-K1zZRE2xB4-nIKxbew&c=design&k=Design+Architect&cluster_id=777783003&l=United+States 
+ company - Amazon
+            (Newark, NJ) 
+ location - (Newark, NJ) 
+
+2024-12-24 22:39:48 [INFO]: title - Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000eff5tm?impression_id=Zhc6uL1eQN6hYBNOpTBytA&c=design&k=Design+Architect&cluster_id=776577208&l=United+States 
+ company - Amazon
+            (Herndon, VA) 
+ location - (Herndon, VA) 
+
+2024-12-24 22:39:48 [INFO]: title - Solutions Architect, NATSEC Partner SA Team 
+ link - https://www.juju.com/job/00000000ee4r4b?impression_id=io7XjQ5URL-b7_7K6rQG3Q&c=design&k=Design+Architect&cluster_id=777504542&l=United+States 
+ company - Amazon
+            (Annapolis Junction, MD) 
+ location - (Annapolis Junction, MD) 
+
+2024-12-24 22:39:48 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ecgbka?impression_id=ol2S-MXST0myZAc7qi0bZw&c=design&k=Design+Architect&cluster_id=778072730&l=United+States 
+ company - Triple C - The A&E Group
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-24 22:39:48 [INFO]: title - Technical Architect - Salesforce 
+ link - https://www.juju.com/job/00000000edhuz4?impression_id=A8Co-rEbTu2MJd5aEiUv8Q&c=design&k=Design+Architect&cluster_id=778478079&l=United+States 
+ company - Liberty IT Solutions, LLC
+            (Melbourne, FL) 
+ location - (Melbourne, FL) 
+
+2024-12-24 22:39:48 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:39:48 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:39:48 [INFO]: Processed jobs count: 5
+2024-12-24 22:39:49 [INFO]: Sent job notification to Slack: UX Architect, Design Systems
+2024-12-24 22:39:49 [INFO]: Sent job notification to Slack: Data Center Project Architect, DC Design Engineering
+2024-12-24 22:39:49 [INFO]: Sent job notification to Slack: Solutions Architect, NATSEC Partner SA Team
+2024-12-24 22:39:49 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-24 22:39:49 [INFO]: Sent job notification to Slack: Technical Architect - Salesforce
+2024-12-24 22:42:24 [INFO]: Received request to send jobs with filters: {"keywords":["Revit Architect"],"locations":["United States"],"category":"design","results":5}
+2024-12-24 22:42:25 [INFO]: HTML Response for Debugging:
+2024-12-24 22:42:25 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:42:25 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ecgbka?impression_id=TDIqBwC5RB6K1X4kj-OrNA&c=design&k=Revit+Architect&cluster_id=778072730&l=United+States 
+ company - Triple C - The A&E Group
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-24 22:42:25 [INFO]: title - Project Architect - Themed Entertainment 
+ link - https://www.juju.com/job/00000000eeuev8?impression_id=x2gO0FdCQ-yPEax3q3Z2Pg&c=design&k=Revit+Architect&cluster_id=778991730&l=United+States 
+ company - Stantec
+            (Orlando, FL) 
+ location - (Orlando, FL) 
+
+2024-12-24 22:42:25 [INFO]: title - Landscape Architect / Designer 
+ link - https://www.juju.com/job/00000000efnuhh?impression_id=bcXnPgWfQHm9xOzvhWtEwg&c=design&k=Revit+Architect&cluster_id=779321868&l=United+States 
+ company - Stantec
+            (Naples, FL) 
+ location - (Naples, FL) 
+
+2024-12-24 22:42:25 [INFO]: title - Architect/Designer 
+ link - https://www.juju.com/job/00000000efjesc?impression_id=8RiLTa1gTvGY4Xn5HKcksg&c=design&k=Revit+Architect&cluster_id=773597018&l=United+States 
+ company - Jeo Consulting Group
+            (Rapid City, SD) 
+ location - (Rapid City, SD) 
+
+2024-12-24 22:42:25 [INFO]: title - Architect - Data Center Infrastructure - US Hybrid, Location Flexible 
+ link - https://www.juju.com/job/00000000ef41o2?impression_id=AgDCnrJBSmKAetOmmLiNrQ&c=design&k=Revit+Architect&cluster_id=779094076&l=United+States 
+ company - Jacobs
+            (Greenville, SC) 
+ location - (Greenville, SC) 
+
+2024-12-24 22:42:25 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:42:25 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:42:25 [INFO]: Processed jobs count: 5
+2024-12-24 22:42:25 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-24 22:42:25 [INFO]: Sent job notification to Slack: Project Architect - Themed Entertainment
+2024-12-24 22:42:25 [INFO]: Sent job notification to Slack: Landscape Architect / Designer
+2024-12-24 22:42:25 [INFO]: Sent job notification to Slack: Architect/Designer
+2024-12-24 22:42:26 [INFO]: Sent job notification to Slack: Architect - Data Center Infrastructure - US Hybrid, Location Flexible
+2024-12-24 22:51:44 [INFO]: Received request to send jobs with filters: {"keywords":["Revit Design Architect"],"locations":["California"],"category":"Design","results":10}
+2024-12-24 22:51:45 [INFO]: HTML Response for Debugging:
+2024-12-24 22:51:45 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:51:45 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=czq4QCmAQwyS2rUrQp22GQ&c=&k=Revit+Design+Architect&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Sr. Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000ef5m8q?impression_id=m1YyfQ_7SfGHuxQ1SWK9fQ&c=&k=Revit+Design+Architect&cluster_id=779089240&l=California 
+ company - Amazon
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Project Architect - Federal 
+ link - https://www.juju.com/job/00000000efpw0s?impression_id=r-k203GxQ7SMTIqwU9iP-Q&c=&k=Revit+Design+Architect&cluster_id=779267115&l=California 
+ company - Stantec
+            (Sacramento, CA) 
+ location - (Sacramento, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Intern Sports Architect - Modeling & Design - Spring/Summer 
+ link - https://www.juju.com/job/00000000efjvs2?impression_id=nyyWmqZxR-mnvKXZ16smiw&c=&k=Revit+Design+Architect&cluster_id=779277707&l=California 
+ company - HNTB
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - BIM Coordinator / Mid-Level Landscape Architect or Designer 
+ link - https://www.juju.com/job/00000000ee1pkh?impression_id=ebtWtbHMQCiRNax5cDTueg&c=&k=Revit+Design+Architect&cluster_id=778699098&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Project Architect - Education 
+ link - https://www.juju.com/job/00000000efpwec?impression_id=cxx_QlfYQCGmQPjB5hR8jA&c=&k=Revit+Design+Architect&cluster_id=779342801&l=California 
+ company - Stantec
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Technical Architect Data Center - Product Development & Integration 
+ link - https://www.juju.com/job/00000000ee6iyj?impression_id=JqPG4IcRTCijN1IKYU1E_A&c=&k=Revit+Design+Architect&cluster_id=776304962&l=California 
+ company - Meta
+            (Fremont, CA) 
+ location - (Fremont, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Project Architect - Healthcare 
+ link - https://www.juju.com/job/00000000efhufs?impression_id=q3s-4yoJQlOgPj5ezePStQ&c=&k=Revit+Design+Architect&cluster_id=779260178&l=California 
+ company - Stantec
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Architect (All Levels) 
+ link - https://www.juju.com/job/00000000eexity?impression_id=kiNnEhQ6SxuVMhkaLLZiag&c=&k=Revit+Design+Architect&cluster_id=779020023&l=California 
+ company - Lionakis
+            (Oakland, CA) 
+ location - (Oakland, CA) 
+
+2024-12-24 22:51:45 [INFO]: title - Landscape Architect, Designer 
+ link - https://www.juju.com/job/00000000edkxux?impression_id=lrJzYxRpRX-NfV8Jde5OAQ&c=&k=Revit+Design+Architect&cluster_id=778512459&l=California 
+ company - AECOM
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 22:51:45 [INFO]: Extracted 10 jobs from Juju API
+2024-12-24 22:51:45 [INFO]: Fetched jobs from Juju API: 10
+2024-12-24 22:51:45 [INFO]: Processed jobs count: 10
+2024-12-24 22:51:45 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 22:51:45 [INFO]: Sent job notification to Slack: Sr. Data Center Project Architect, DC Design Engineering
+2024-12-24 22:51:45 [INFO]: Sent job notification to Slack: Project Architect - Federal
+2024-12-24 22:51:45 [INFO]: Sent job notification to Slack: Intern Sports Architect - Modeling & Design - Spring/Summer
+2024-12-24 22:51:46 [INFO]: Sent job notification to Slack: BIM Coordinator / Mid-Level Landscape Architect or Designer
+2024-12-24 22:51:46 [INFO]: Sent job notification to Slack: Project Architect - Education
+2024-12-24 22:51:46 [INFO]: Sent job notification to Slack: Technical Architect Data Center - Product Development & Integration
+2024-12-24 22:51:46 [INFO]: Sent job notification to Slack: Project Architect - Healthcare
+2024-12-24 22:51:46 [INFO]: Sent job notification to Slack: Architect (All Levels)
+2024-12-24 22:51:47 [INFO]: Sent job notification to Slack: Landscape Architect, Designer
+2024-12-24 22:59:34 [INFO]: Received request to send jobs with filters: {"keywords":["Revit Design Architect"],"locations":["United States"],"category":"construction","results":5}
+2024-12-24 22:59:34 [INFO]: HTML Response for Debugging:
+2024-12-24 22:59:34 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 22:59:34 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=HfNkp0BlQ3Cs3VksO_Se3A&c=construction&k=Revit+Design+Architect&cluster_id=779219132&l=United+States 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 22:59:34 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=EPFRHGPVRtykSnW-CMeN4Q&c=construction&k=Revit+Design+Architect&cluster_id=779066880&l=United+States 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-24 22:59:34 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=vbHOywsWRoKLsvI2AMlg3g&c=construction&k=Revit+Design+Architect&cluster_id=778274840&l=United+States 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-24 22:59:34 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=P-bqfn9-RhKaX0BP2XwzbQ&c=construction&k=Revit+Design+Architect&cluster_id=779142880&l=United+States 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 22:59:34 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=i-QFbh0rQKWhDmDiugFucw&c=construction&k=Revit+Design+Architect&cluster_id=779143070&l=United+States 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 22:59:34 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 22:59:34 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 22:59:34 [INFO]: Processed jobs count: 5
+2024-12-24 22:59:35 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 22:59:35 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 22:59:35 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-24 22:59:35 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-24 22:59:35 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-24 23:00:32 [INFO]: Received request to send jobs with filters: {"keywords":["Design ARCHITECT revit"],"locations":["united states"],"category":"construction","results":5}
+2024-12-24 23:00:32 [INFO]: HTML Response for Debugging:
+2024-12-24 23:00:32 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:00:32 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=Y8ickfc4SYWkSH1hH8rk3Q&c=construction&k=Design+ARCHITECT+revit&cluster_id=779219132&l=united+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:00:32 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=uFh6QRSJQWKNKkGTXm8E4g&c=construction&k=Design+ARCHITECT+revit&cluster_id=779066880&l=united+states 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-24 23:00:32 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=TLu87UnsT6e1PzoDQ2jbPw&c=construction&k=Design+ARCHITECT+revit&cluster_id=778274840&l=united+states 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-24 23:00:32 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=0D2GlRt8T-WmgLGBFpmn8g&c=construction&k=Design+ARCHITECT+revit&cluster_id=779142880&l=united+states 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 23:00:32 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=JziNr04VQKCQA234WouUfw&c=construction&k=Design+ARCHITECT+revit&cluster_id=779143070&l=united+states 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 23:00:32 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:00:32 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:00:32 [INFO]: Processed jobs count: 5
+2024-12-24 23:00:33 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:00:33 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:00:33 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-24 23:00:33 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-24 23:00:33 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-24 23:02:41 [INFO]: Received request to send jobs with filters: {"keywords":["Revit Design Architect"],"locations":["United States"],"category":"construction","results":5}
+2024-12-24 23:02:42 [INFO]: HTML Response for Debugging:
+2024-12-24 23:02:42 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:02:42 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=GVuvoE5MQf2VgEI2k23tHA&c=construction&k=Revit+Design+Architect&cluster_id=779219132&l=United+States 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:02:42 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=MStPBCV7QnOgOoo0dQh8cA&c=construction&k=Revit+Design+Architect&cluster_id=779066880&l=United+States 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-24 23:02:42 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=7DDKXhSVTyGxcTuXTVU50g&c=construction&k=Revit+Design+Architect&cluster_id=778274840&l=United+States 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-24 23:02:42 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=R0PPnQtQTFuAPo8WJv2FFg&c=construction&k=Revit+Design+Architect&cluster_id=779142880&l=United+States 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 23:02:42 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=leKZFkt7SMiOnyccA9-6sQ&c=construction&k=Revit+Design+Architect&cluster_id=779143070&l=United+States 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 23:02:42 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:02:42 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:02:42 [INFO]: Processed jobs count: 5
+2024-12-24 23:02:42 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:02:42 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:02:42 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-24 23:02:43 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-24 23:02:43 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-24 23:03:18 [INFO]: Received request to send jobs with filters: {"keywords":["Design architect"],"locations":["united states"],"category":"construction","results":5}
+2024-12-24 23:03:18 [INFO]: HTML Response for Debugging:
+2024-12-24 23:03:19 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:03:19 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=mXwueGiZQ76eiwkeh34TOw&c=construction&k=Design+architect&cluster_id=778713556&l=united+states 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 23:03:19 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=V5AiQmA2QdOwLcLRq6lhlA&c=construction&k=Design+architect&cluster_id=779076618&l=united+states 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 23:03:19 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=lk4RQk-sQWOwluiOveIQdA&c=construction&k=Design+architect&cluster_id=779219132&l=united+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:03:19 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=9bbVASXeQeKXhw2iEBN4qg&c=construction&k=Design+architect&cluster_id=779333114&l=united+states 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-24 23:03:19 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=g2W9Y6KuSc6Us_80CEhiSw&c=construction&k=Design+architect&cluster_id=779332275&l=united+states 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-24 23:03:19 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:03:19 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:03:19 [INFO]: Processed jobs count: 5
+2024-12-24 23:03:19 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 23:03:19 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:03:19 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:03:19 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-24 23:03:19 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-24 23:05:20 [INFO]: Received request to send jobs with filters: {"keywords":["design architect"],"locations":["United states"],"category":"construction","results":5}
+2024-12-24 23:05:20 [INFO]: HTML Response for Debugging:
+2024-12-24 23:05:20 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:05:20 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=RZOtgEzCTxWjnv2v2F1DIg&c=construction&k=design+architect&cluster_id=778713556&l=United+states 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 23:05:20 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=hwC1j5iuRoKJKapHkR7swA&c=construction&k=design+architect&cluster_id=779076618&l=United+states 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 23:05:20 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=eZDP5wXaSCKaTse8gsP6UA&c=construction&k=design+architect&cluster_id=779219132&l=United+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:05:20 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=nAEqNCgUQWaBy7jrDD0FDw&c=construction&k=design+architect&cluster_id=779333114&l=United+states 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-24 23:05:20 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=n8UKuunhT-ye-wH8auFwpw&c=construction&k=design+architect&cluster_id=779332275&l=United+states 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-24 23:05:20 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:05:20 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:05:20 [INFO]: Processed jobs count: 5
+2024-12-24 23:05:21 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 23:05:21 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:05:21 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:05:21 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-24 23:05:21 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-24 23:05:28 [WARN]: Invalid inputs for resume enhancement.
+2024-12-24 23:10:10 [INFO]: Received request to send jobs with filters: {"keywords":["architect"],"locations":["colarado"],"category":"construction","results":5}
+2024-12-24 23:10:11 [INFO]: HTML Response for Debugging:
+2024-12-24 23:10:11 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:10:11 [INFO]: title - Construction Surveillance Technician (CST) TS/SCI CI Poly 
+ link - https://www.juju.com/job/00000000efmlnm?impression_id=tW07LEiAR8uGVZ5yoZkfeA&c=construction&k=architect&cluster_id=779305184&l=colarado 
+ company - IDS International
+            (Aurora, CO) 
+ location - (Aurora, CO) 
+
+2024-12-24 23:10:11 [INFO]: title - Construction Surveillance Technician (CST) 
+ link - https://www.juju.com/job/00000000effy1k?impression_id=_R_J2xx3Qe6LZiVH8wtbiQ&c=construction&k=architect&cluster_id=779233698&l=colarado 
+ company - Global Resource Solutions
+            (Centennial, CO) 
+ location - (Centennial, CO) 
+
+2024-12-24 23:10:11 [INFO]: title - Crushing Superintendent, Heavy Civil - Northwest District 
+ link - https://www.juju.com/job/00000000eftc3g?impression_id=l2iajrAsTNyHlHJmLr7bCw&c=construction&k=architect&cluster_id=779391596&l=colarado 
+ company - Kiewit
+            (Denver, CO) 
+ location - (Denver, CO) 
+
+2024-12-24 23:10:11 [INFO]: title - Project Manager Design & Construction Sr 
+ link - https://www.juju.com/job/00000000efmct3?impression_id=a7qYz504QhWMUa5oLmd4ag&c=construction&k=architect&cluster_id=779302565&l=colarado 
+ company - UCHealth
+            (Colorado Springs, CO) 
+ location - (Colorado Springs, CO) 
+
+2024-12-24 23:10:11 [INFO]: title - Sr Project Manager - Retail Construction (Texas) 
+ link - https://www.juju.com/job/00000000efohli?impression_id=_D8jLzgNRyaFjk4Gc0sYNg&c=construction&k=architect&cluster_id=779202894&l=colarado 
+ company - CBRE
+            (Denver, CO) 
+ location - (Denver, CO) 
+
+2024-12-24 23:10:11 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:10:11 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:10:11 [INFO]: Processed jobs count: 5
+2024-12-24 23:10:11 [INFO]: Sent job notification to Slack: Construction Surveillance Technician (CST) TS/SCI CI Poly
+2024-12-24 23:10:11 [INFO]: Sent job notification to Slack: Construction Surveillance Technician (CST)
+2024-12-24 23:10:12 [INFO]: Sent job notification to Slack: Crushing Superintendent, Heavy Civil - Northwest District
+2024-12-24 23:10:12 [INFO]: Sent job notification to Slack: Project Manager Design & Construction Sr
+2024-12-24 23:10:12 [INFO]: Sent job notification to Slack: Sr Project Manager - Retail Construction (Texas)
+2024-12-24 23:10:24 [INFO]: Starting resume enhancement process.
+2024-12-24 23:10:24 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-24 23:10:24 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-24 23:10:24 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 23:10:26 [INFO]: ChatGPT API call successful.
+2024-12-24 23:10:26 [INFO]: Job descriptions analysis completed.
+2024-12-24 23:10:26 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 23:10:26 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 23:10:28 [INFO]: ChatGPT API call successful.
+2024-12-24 23:10:28 [INFO]: Resume enhancement completed successfully.
+2024-12-24 23:17:00 [INFO]: Received request to send jobs with filters: {"keywords":["Design Revit Architect"],"locations":["Boston"],"category":"construction","results":5}
+2024-12-24 23:17:01 [INFO]: HTML Response for Debugging:
+2024-12-24 23:17:01 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:17:01 [INFO]: title - Architectural Designer (Architect 3) 
+ link - https://www.juju.com/job/00000000ed09b9?impression_id=4uTUidMZRC-3CQLLQ2aEEA&c=construction&k=Design+Revit+Architect&cluster_id=778305260&l=Boston 
+ company - CDM Smith
+            (Boston, MA) 
+ location - (Boston, MA) 
+
+2024-12-24 23:17:01 [INFO]: title - Architect 1 (2025 Graduates!) 
+ link - https://www.juju.com/job/00000000efa6kk?impression_id=rhuAEUf2RCmZTIZKX49EyA&c=construction&k=Design+Revit+Architect&cluster_id=777205146&l=Boston 
+ company - CDM Smith
+            (Boston, MA) 
+ location - (Boston, MA) 
+
+2024-12-24 23:17:01 [INFO]: title - Building Enclosure Cx Engineer 
+ link - https://www.juju.com/job/00000000eebyiq?impression_id=bLFn8QuWR1yIbL9s2kIGDg&c=construction&k=Design+Revit+Architect&cluster_id=774125322&l=Boston 
+ company - WSP USA
+            (Boston, MA) 
+ location - (Boston, MA) 
+
+2024-12-24 23:17:01 [INFO]: Extracted 3 jobs from Juju API
+2024-12-24 23:17:01 [INFO]: Fetched jobs from Juju API: 3
+2024-12-24 23:17:01 [INFO]: Processed jobs count: 3
+2024-12-24 23:17:01 [INFO]: Sent job notification to Slack: Architectural Designer (Architect 3)
+2024-12-24 23:17:01 [INFO]: Sent job notification to Slack: Architect 1 (2025 Graduates!)
+2024-12-24 23:17:02 [INFO]: Sent job notification to Slack: Building Enclosure Cx Engineer
+2024-12-24 23:17:09 [INFO]: Starting resume enhancement process.
+2024-12-24 23:17:10 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-24 23:17:10 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-24 23:17:10 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 23:17:11 [INFO]: ChatGPT API call successful.
+2024-12-24 23:17:11 [INFO]: Job descriptions analysis completed.
+2024-12-24 23:17:11 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 23:17:11 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 23:17:13 [INFO]: ChatGPT API call successful.
+2024-12-24 23:17:13 [INFO]: Resume enhancement completed successfully.
+2024-12-24 23:18:12 [INFO]: Received request to send jobs with filters: {"keywords":["Revit Architect"],"locations":["Boston"],"category":"design","results":5}
+2024-12-24 23:18:12 [INFO]: HTML Response for Debugging:
+2024-12-24 23:18:12 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:18:12 [INFO]: title - Registered Architect and Designer-High End Residential 
+ link - https://www.juju.com/job/00000000ef8pop?impression_id=sVF59WvFTIuBnyBNW1fU9w&c=design&k=Revit+Architect&cluster_id=779143581&l=Boston 
+ company - Sleeping Dog Properties
+            (Boston, MA) 
+ location - (Boston, MA) 
+
+2024-12-24 23:18:12 [INFO]: Extracted 1 jobs from Juju API
+2024-12-24 23:18:12 [INFO]: Fetched jobs from Juju API: 1
+2024-12-24 23:18:12 [INFO]: Processed jobs count: 1
+2024-12-24 23:18:13 [INFO]: Sent job notification to Slack: Registered Architect and Designer-High End Residential
+2024-12-24 23:18:23 [INFO]: Starting resume enhancement process.
+2024-12-24 23:18:23 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-24 23:18:23 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-24 23:18:23 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 23:18:25 [INFO]: ChatGPT API call successful.
+2024-12-24 23:18:25 [INFO]: Job descriptions analysis completed.
+2024-12-24 23:18:25 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 23:18:25 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 23:18:28 [INFO]: ChatGPT API call successful.
+2024-12-24 23:18:28 [INFO]: Resume enhancement completed successfully.
+2024-12-24 23:24:41 [INFO]: Received request to send jobs with filters: {"keywords":["Design revit architect"],"locations":["United states"],"category":"design","results":5}
+2024-12-24 23:24:42 [INFO]: HTML Response for Debugging:
+2024-12-24 23:24:42 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:24:42 [INFO]: title - Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000eff5tm?impression_id=1XKU7FTSQgqExitUY9f0Pg&c=design&k=Design+revit+architect&cluster_id=776577208&l=United+states 
+ company - Amazon
+            (Herndon, VA) 
+ location - (Herndon, VA) 
+
+2024-12-24 23:24:42 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ecgbka?impression_id=8CgRikPNTQCcAkoCM0ZPZA&c=design&k=Design+revit+architect&cluster_id=778072730&l=United+states 
+ company - Triple C - The A&E Group
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-24 23:24:42 [INFO]: title - Project Architect - Themed Entertainment 
+ link - https://www.juju.com/job/00000000eeuev8?impression_id=_S3zvT7mQRS7eC9MzI_PaA&c=design&k=Design+revit+architect&cluster_id=778991730&l=United+states 
+ company - Stantec
+            (Orlando, FL) 
+ location - (Orlando, FL) 
+
+2024-12-24 23:24:42 [INFO]: title - Landscape Architect / Designer 
+ link - https://www.juju.com/job/00000000efnuhh?impression_id=EeLr6QzLRG2Zn4OIkSDXvw&c=design&k=Design+revit+architect&cluster_id=779321868&l=United+states 
+ company - Stantec
+            (Naples, FL) 
+ location - (Naples, FL) 
+
+2024-12-24 23:24:42 [INFO]: title - Architect/Designer 
+ link - https://www.juju.com/job/00000000efjesc?impression_id=H6wDpAt3SkOOnkrfv_CB-Q&c=design&k=Design+revit+architect&cluster_id=773597018&l=United+states 
+ company - Jeo Consulting Group
+            (Rapid City, SD) 
+ location - (Rapid City, SD) 
+
+2024-12-24 23:24:42 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:24:42 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:24:42 [INFO]: Processed jobs count: 5
+2024-12-24 23:24:42 [INFO]: Sent job notification to Slack: Data Center Project Architect, DC Design Engineering
+2024-12-24 23:24:42 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-24 23:24:43 [INFO]: Sent job notification to Slack: Project Architect - Themed Entertainment
+2024-12-24 23:24:43 [INFO]: Sent job notification to Slack: Landscape Architect / Designer
+2024-12-24 23:24:43 [INFO]: Sent job notification to Slack: Architect/Designer
+2024-12-24 23:24:49 [INFO]: Starting resume enhancement process.
+2024-12-24 23:24:49 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-24 23:24:49 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-24 23:24:49 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 23:24:51 [INFO]: ChatGPT API call successful.
+2024-12-24 23:24:51 [INFO]: Job descriptions analysis completed.
+2024-12-24 23:24:51 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 23:24:51 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 23:24:52 [INFO]: ChatGPT API call successful.
+2024-12-24 23:24:52 [INFO]: Resume enhancement completed successfully.
+2024-12-24 23:28:33 [INFO]: Received request to send jobs with filters: {"keywords":["Design revit architect"],"locations":["Texas"],"category":"Design","results":5}
+2024-12-24 23:28:34 [INFO]: HTML Response for Debugging:
+2024-12-24 23:28:34 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:28:34 [INFO]: title - Design Lead, Architect 
+ link - https://www.juju.com/job/00000000eflmmp?impression_id=L1aTktVuRDSbzY5OK-3qeA&c=&k=Design+revit+architect&cluster_id=779296974&l=Texas 
+ company - Stantec
+            (Houston, TX) 
+ location - (Houston, TX) 
+
+2024-12-24 23:28:34 [INFO]: title - Datacenter Design Architect 
+ link - https://www.juju.com/job/00000000ef9174?impression_id=HZh3t3jiR12_iduKXF3ABA&c=&k=Design+revit+architect&cluster_id=779145617&l=Texas 
+ company - Microsoft Corporation
+            (San Antonio, TX) 
+ location - (San Antonio, TX) 
+
+2024-12-24 23:28:34 [INFO]: title - Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000ef5mo1?impression_id=HIBjxR9xQIain39NP-a12Q&c=&k=Design+revit+architect&cluster_id=779089240&l=Texas 
+ company - Amazon
+            (Austin, TX) 
+ location - (Austin, TX) 
+
+2024-12-24 23:28:34 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ecgbka?impression_id=eh_zmCssS1SWLqytz-Exug&c=&k=Design+revit+architect&cluster_id=778072730&l=Texas 
+ company - Triple C - The A&E Group
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-24 23:28:34 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ef2m66?impression_id=Chr4xa8PTQiJFx6NGUUSsw&c=&k=Design+revit+architect&cluster_id=770073742&l=Texas 
+ company - Ghafari
+            (Fort Worth, TX) 
+ location - (Fort Worth, TX) 
+
+2024-12-24 23:28:34 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:28:34 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:28:34 [INFO]: Processed jobs count: 5
+2024-12-24 23:28:34 [INFO]: Sent job notification to Slack: Design Lead, Architect
+2024-12-24 23:28:34 [INFO]: Sent job notification to Slack: Datacenter Design Architect
+2024-12-24 23:28:34 [INFO]: Sent job notification to Slack: Data Center Project Architect, DC Design Engineering
+2024-12-24 23:28:35 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-24 23:28:35 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-24 23:28:43 [INFO]: Starting resume enhancement process.
+2024-12-24 23:28:43 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-24 23:28:43 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-24 23:28:43 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 23:28:45 [INFO]: ChatGPT API call successful.
+2024-12-24 23:28:45 [INFO]: Job descriptions analysis completed.
+2024-12-24 23:28:45 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 23:28:45 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 23:28:49 [INFO]: ChatGPT API call successful.
+2024-12-24 23:28:49 [INFO]: Resume enhancement completed successfully.
+2024-12-24 23:33:42 [INFO]: Received request to send jobs with filters: {"keywords":["design architect revit"],"locations":["United States"],"category":"construction","results":5}
+2024-12-24 23:33:42 [INFO]: HTML Response for Debugging:
+2024-12-24 23:33:42 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:33:42 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=PWk7OL_oTEicint9k8bkqA&c=construction&k=design+architect+revit&cluster_id=779219132&l=United+States 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:33:42 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=tC8qOJiMQcqhmNTscgYHBA&c=construction&k=design+architect+revit&cluster_id=779066880&l=United+States 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-24 23:33:42 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=i4LDXxz6QaCMoo-symvtzA&c=construction&k=design+architect+revit&cluster_id=778274840&l=United+States 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-24 23:33:42 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=ME7Yty62Q7y_DkiUkNFNaw&c=construction&k=design+architect+revit&cluster_id=779142880&l=United+States 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 23:33:42 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=8q__rjHRSv2hFIedO83Fwg&c=construction&k=design+architect+revit&cluster_id=779143070&l=United+States 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-24 23:33:42 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:33:42 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:33:42 [INFO]: Processed jobs count: 5
+2024-12-24 23:33:43 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:33:43 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:33:43 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-24 23:33:43 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-24 23:33:43 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-24 23:37:41 [INFO]: Received request to send jobs with filters: {"keywords":["Design Architect"],"locations":["United States"],"category":"construction","results":5}
+2024-12-24 23:37:42 [INFO]: HTML Response for Debugging:
+2024-12-24 23:37:42 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:37:42 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=koC1cJt8TRih8pf-X4gqYw&c=construction&k=Design+Architect&cluster_id=778713556&l=United+States 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 23:37:42 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=T5JNZny4QEOl3wUl6KMgew&c=construction&k=Design+Architect&cluster_id=779076618&l=United+States 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 23:37:42 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=_rnmNifXR_yiCe80UeERow&c=construction&k=Design+Architect&cluster_id=779219132&l=United+States 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:37:42 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=CznkChzMQ6eEHX7YUVmEvg&c=construction&k=Design+Architect&cluster_id=779333114&l=United+States 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-24 23:37:42 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=OqBBP5uAQ7us3zZ66G2rng&c=construction&k=Design+Architect&cluster_id=779332275&l=United+States 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-24 23:37:42 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:37:42 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:37:42 [INFO]: Processed jobs count: 5
+2024-12-24 23:37:42 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 23:37:42 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:37:43 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:37:43 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-24 23:37:43 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-24 23:39:25 [INFO]: Received request to send jobs with filters: {"keywords":["design architect revit"],"locations":["California"],"category":"Design","results":5}
+2024-12-24 23:39:26 [INFO]: HTML Response for Debugging:
+2024-12-24 23:39:26 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:39:26 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=piwgWIZoQFumb94W2uxWqg&c=&k=design+architect+revit&cluster_id=779219132&l=California 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:39:26 [INFO]: title - Sr. Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000ef5m8q?impression_id=kEpV3X6cTX6_Z5qaQKP6UA&c=&k=design+architect+revit&cluster_id=779089240&l=California 
+ company - Amazon
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-24 23:39:26 [INFO]: title - Project Architect - Federal 
+ link - https://www.juju.com/job/00000000efpw0s?impression_id=D1GYDVd4QuyJPfPsuJk8lQ&c=&k=design+architect+revit&cluster_id=779267115&l=California 
+ company - Stantec
+            (Sacramento, CA) 
+ location - (Sacramento, CA) 
+
+2024-12-24 23:39:26 [INFO]: title - Intern Sports Architect - Modeling & Design - Spring/Summer 
+ link - https://www.juju.com/job/00000000efjvs2?impression_id=3u38tG2vRtGADiHhg49jiQ&c=&k=design+architect+revit&cluster_id=779277707&l=California 
+ company - HNTB
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-24 23:39:26 [INFO]: title - BIM Coordinator / Mid-Level Landscape Architect or Designer 
+ link - https://www.juju.com/job/00000000ee1pkh?impression_id=xHc-myz-QICr152ThcwQcg&c=&k=design+architect+revit&cluster_id=778699098&l=California 
+ company - SWA Group
+            (Sausalito, CA) 
+ location - (Sausalito, CA) 
+
+2024-12-24 23:39:26 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:39:26 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:39:26 [INFO]: Processed jobs count: 5
+2024-12-24 23:39:26 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:39:26 [INFO]: Sent job notification to Slack: Sr. Data Center Project Architect, DC Design Engineering
+2024-12-24 23:39:26 [INFO]: Sent job notification to Slack: Project Architect - Federal
+2024-12-24 23:39:26 [INFO]: Sent job notification to Slack: Intern Sports Architect - Modeling & Design - Spring/Summer
+2024-12-24 23:39:27 [INFO]: Sent job notification to Slack: BIM Coordinator / Mid-Level Landscape Architect or Designer
+2024-12-24 23:43:41 [INFO]: Received request to send jobs with filters: {"keywords":["Design architect"],"locations":["united states"],"category":"construction","results":5}
+2024-12-24 23:43:41 [INFO]: HTML Response for Debugging:
+2024-12-24 23:43:41 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:43:41 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=QLxqfjZSQguCM8oILz6TVQ&c=construction&k=Design+architect&cluster_id=778713556&l=united+states 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 23:43:41 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=uVcLO0f-QBy3HRPwGY6Bkw&c=construction&k=Design+architect&cluster_id=779076618&l=united+states 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 23:43:41 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=wAXdyV74RGCtYK4fgAy31g&c=construction&k=Design+architect&cluster_id=779219132&l=united+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:43:41 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=luib6yu-SguKlD-Lg1hF2A&c=construction&k=Design+architect&cluster_id=779333114&l=united+states 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-24 23:43:41 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=mB1g53BXRLuPYnkOqmewNQ&c=construction&k=Design+architect&cluster_id=779332275&l=united+states 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-24 23:43:41 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:43:41 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:43:41 [INFO]: Processed jobs count: 5
+2024-12-24 23:43:42 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 23:43:42 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:43:42 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:43:42 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-24 23:43:42 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-24 23:51:08 [INFO]: Received request to send jobs with filters: {"keywords":["design architect"],"locations":["united states"],"category":"construction","results":5}
+2024-12-24 23:51:09 [INFO]: HTML Response for Debugging:
+2024-12-24 23:51:09 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:51:09 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=gCiTBOX7Q1eDQC6W3cPjXQ&c=construction&k=design+architect&cluster_id=778713556&l=united+states 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 23:51:09 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=eqeOZOLQQ4uGD46scXVi5g&c=construction&k=design+architect&cluster_id=779076618&l=united+states 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 23:51:09 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=oBvii_AWTuKjmqOcZc9F8Q&c=construction&k=design+architect&cluster_id=779219132&l=united+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:51:09 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=hnuIM2Z1T06VIlR_xmQmZQ&c=construction&k=design+architect&cluster_id=779333114&l=united+states 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-24 23:51:09 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=iR8xk3RzQJ2nS9TGwJnOzw&c=construction&k=design+architect&cluster_id=779332275&l=united+states 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-24 23:51:09 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:51:09 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:51:09 [INFO]: Processed jobs count: 5
+2024-12-24 23:51:09 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 23:51:09 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:51:09 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:51:10 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-24 23:51:10 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-24 23:51:24 [INFO]: Starting resume enhancement process.
+2024-12-24 23:51:24 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-24 23:51:24 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-24 23:51:24 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 23:51:26 [INFO]: ChatGPT API call successful.
+2024-12-24 23:51:26 [INFO]: Job descriptions analysis completed.
+2024-12-24 23:51:26 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 23:51:26 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 23:51:28 [INFO]: ChatGPT API call successful.
+2024-12-24 23:51:28 [INFO]: Resume enhancement completed successfully.
+2024-12-24 23:55:11 [INFO]: Received request to send jobs with filters: {"keywords":["design architect"],"locations":["united states"],"category":"construction","results":5}
+2024-12-24 23:55:12 [INFO]: HTML Response for Debugging:
+2024-12-24 23:55:12 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-24 23:55:12 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=cx-Ur9J8SRiFRYagcz8k1Q&c=construction&k=design+architect&cluster_id=778713556&l=united+states 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-24 23:55:12 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=kR8kkboZS92Vgh-CM7SQMg&c=construction&k=design+architect&cluster_id=779076618&l=united+states 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-24 23:55:12 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=SE3gRGMEScm2EFtO7K10Fg&c=construction&k=design+architect&cluster_id=779219132&l=united+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-24 23:55:12 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=YP6XUHMpQ_CTefg4WPMGxg&c=construction&k=design+architect&cluster_id=779333114&l=united+states 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-24 23:55:12 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=qdMp6FgKRzuNip0OEDLRMA&c=construction&k=design+architect&cluster_id=779332275&l=united+states 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-24 23:55:12 [INFO]: Extracted 5 jobs from Juju API
+2024-12-24 23:55:12 [INFO]: Fetched jobs from Juju API: 5
+2024-12-24 23:55:12 [INFO]: Processed jobs count: 5
+2024-12-24 23:55:12 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-24 23:55:12 [INFO]: Sent job notification to Slack: Architect
+2024-12-24 23:55:13 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-24 23:55:13 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-24 23:55:13 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-24 23:55:21 [INFO]: Starting resume enhancement process.
+2024-12-24 23:55:21 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-24 23:55:21 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-24 23:55:21 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-24 23:55:23 [INFO]: ChatGPT API call successful.
+2024-12-24 23:55:23 [INFO]: Job descriptions analysis completed.
+2024-12-24 23:55:23 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-24 23:55:23 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-24 23:55:27 [INFO]: ChatGPT API call successful.
+2024-12-24 23:55:27 [INFO]: Resume enhancement completed successfully.
+2024-12-25 10:53:58 [INFO]: Received request to send jobs with filters: {"keywords":["design architect"],"locations":["united states"],"category":"construction","results":5}
+2024-12-25 10:53:59 [INFO]: HTML Response for Debugging:
+2024-12-25 10:53:59 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 10:53:59 [INFO]: title - Planning, Design and Construction Project Manager - Architect 
+ link - https://www.juju.com/job/00000000ee2pke?impression_id=CQC3JhCvRTSn_rdQ6ZBsQw&c=construction&k=design+architect&cluster_id=778713556&l=united+states 
+ company - New York Botanical Garden
+            (Bronx, NY) 
+ location - (Bronx, NY) 
+
+2024-12-25 10:53:59 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef2kqd?impression_id=EN8VehybQFeBVXhYQ2rTFQ&c=construction&k=design+architect&cluster_id=779076618&l=united+states 
+ company - Johns Hopkins University
+            (Baltimore, MD) 
+ location - (Baltimore, MD) 
+
+2024-12-25 10:53:59 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=Et7XGM6ITt6qKA0flhhmAw&c=construction&k=design+architect&cluster_id=779219132&l=united+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 10:53:59 [INFO]: title - Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical) 
+ link - https://www.juju.com/job/00000000efos8k?impression_id=gSbYaet0TFqoNL0QPHLiBA&c=construction&k=design+architect&cluster_id=779333114&l=united+states 
+ company - US Army Corps of Engineers
+            (Fort Shafter, HI) 
+ location - (Fort Shafter, HI) 
+
+2024-12-25 10:53:59 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=xaNzImBYSwqh0fO3Uy0uiA&c=construction&k=design+architect&cluster_id=779332275&l=united+states 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-25 10:53:59 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 10:53:59 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 10:53:59 [INFO]: Processed jobs count: 5
+2024-12-25 10:53:59 [INFO]: Sent job notification to Slack: Planning, Design and Construction Project Manager - Architect
+2024-12-25 10:53:59 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 10:53:59 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 10:53:59 [INFO]: Sent job notification to Slack: Supervisory Interdisciplinary Engineer/Architect (General/Architect/Civil/Mechanical/Electrical)
+2024-12-25 10:54:00 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-25 10:54:19 [INFO]: Starting resume enhancement process.
+2024-12-25 10:54:19 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 10:54:19 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 10:54:19 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 10:54:22 [INFO]: ChatGPT API call successful.
+2024-12-25 10:54:22 [INFO]: Job descriptions analysis completed.
+2024-12-25 10:54:22 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 10:54:22 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 10:54:23 [INFO]: ChatGPT API call successful.
+2024-12-25 10:54:23 [INFO]: Resume enhancement completed successfully.
+2024-12-25 10:56:04 [INFO]: Received request to send jobs with filters: {"keywords":["Design Architect Revit"],"locations":["United States"],"category":"Construction","results":15}
+2024-12-25 10:56:04 [INFO]: HTML Response for Debugging:
+2024-12-25 10:56:04 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 10:56:04 [INFO]: title - Revit Technician 
+ link - https://www.juju.com/job/00000000effmwp?impression_id=u5g7YYMWQBGrierq-iv6PQ&c=&k=Design+Architect+Revit&cluster_id=779231753&l=United+States 
+ company - Actalent
+            (Columbus, IN) 
+ location - (Columbus, IN) 
+
+2024-12-25 10:56:04 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=EFZsGveZRne5usuUw03Y1Q&c=&k=Design+Architect+Revit&cluster_id=779219132&l=United+States 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 10:56:04 [INFO]: title - Design Lead, Architect 
+ link - https://www.juju.com/job/00000000eflmmp?impression_id=QSZhUvOFTX63PX_p2gRL9A&c=&k=Design+Architect+Revit&cluster_id=779296974&l=United+States 
+ company - Stantec
+            (Houston, TX) 
+ location - (Houston, TX) 
+
+2024-12-25 10:56:04 [INFO]: title - Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000ef5mq5?impression_id=QQrEDvK8Q2SXnapeonTMTA&c=&k=Design+Architect+Revit&cluster_id=779089240&l=United+States 
+ company - Amazon
+            (Seattle, WA) 
+ location - (Seattle, WA) 
+
+2024-12-25 10:56:04 [INFO]: title - Senior Design Architect 
+ link - https://www.juju.com/job/00000000eez7qy?impression_id=5h3DVLdCQKi_sJvF1j_Geg&c=&k=Design+Architect+Revit&cluster_id=779038002&l=United+States 
+ company - Stantec
+            (Berkley, MI) 
+ location - (Berkley, MI) 
+
+2024-12-25 10:56:04 [INFO]: title - Sr. Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000eevpz8?impression_id=QMXfCk9sSUaPbIgwVo3WCw&c=&k=Design+Architect+Revit&cluster_id=776577208&l=United+States 
+ company - Amazon
+            (Herndon, VA) 
+ location - (Herndon, VA) 
+
+2024-12-25 10:56:04 [INFO]: title - Senior Design Architect 
+ link - https://www.juju.com/job/00000000edzufz?impression_id=znp2l4AfRimUyD8q9_8Wmg&c=&k=Design+Architect+Revit&cluster_id=778675159&l=United+States 
+ company - AECOM
+            (Roanoke, VA) 
+ location - (Roanoke, VA) 
+
+2024-12-25 10:56:04 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ecgbka?impression_id=IutNMTToTryRswJOx9JgUQ&c=&k=Design+Architect+Revit&cluster_id=778072730&l=United+States 
+ company - Triple C - The A&E Group
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-25 10:56:04 [INFO]: title - Project Architect - Federal 
+ link - https://www.juju.com/job/00000000efpw0s?impression_id=n17OVrGySWa0sfTP58ECJg&c=&k=Design+Architect+Revit&cluster_id=779267115&l=United+States 
+ company - Stantec
+            (Sacramento, CA) 
+ location - (Sacramento, CA) 
+
+2024-12-25 10:56:04 [INFO]: title - Intern Sports Architect - Modeling & Design - Spring/Summer 
+ link - https://www.juju.com/job/00000000efjvs2?impression_id=wRJs2AzHS9qhFCoMz5g8kQ&c=&k=Design+Architect+Revit&cluster_id=779277707&l=United+States 
+ company - HNTB
+            (Los Angeles, CA) 
+ location - (Los Angeles, CA) 
+
+2024-12-25 10:56:04 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ecjdut?impression_id=LbCh4j3iRJCIsZCGgbsbbw&c=&k=Design+Architect+Revit&cluster_id=775575466&l=United+States 
+ company - AECOM
+            (Albuquerque, NM) 
+ location - (Albuquerque, NM) 
+
+2024-12-25 10:56:04 [INFO]: title - Senior Project Architect 
+ link - https://www.juju.com/job/00000000ecjde5?impression_id=LXXF_AiyQWSn7uWPnCbuIw&c=&k=Design+Architect+Revit&cluster_id=778105375&l=United+States 
+ company - AECOM
+            (Denver, CO) 
+ location - (Denver, CO) 
+
+2024-12-25 10:56:04 [INFO]: title - Registered Architect Project Manager 
+ link - https://www.juju.com/job/00000000ecf746?impression_id=MjYG_b-vSn2aX5qVwAvDrA&c=&k=Design+Architect+Revit&cluster_id=778059520&l=United+States 
+ company - KBR
+            (Fulton, MD) 
+ location - (Fulton, MD) 
+
+2024-12-25 10:56:04 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=c1FcJ_7CQpaGUKkraoFY1g&c=&k=Design+Architect+Revit&cluster_id=779066880&l=United+States 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 10:56:04 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000efha09?impression_id=aUx9QMOjRRu_ATTmtKeowQ&c=&k=Design+Architect+Revit&cluster_id=778718480&l=United+States 
+ company - Actalent
+            (Kansas City, MO) 
+ location - (Kansas City, MO) 
+
+2024-12-25 10:56:04 [INFO]: Extracted 15 jobs from Juju API
+2024-12-25 10:56:04 [INFO]: Fetched jobs from Juju API: 15
+2024-12-25 10:56:04 [INFO]: Processed jobs count: 15
+2024-12-25 10:56:05 [INFO]: Sent job notification to Slack: Revit Technician
+2024-12-25 10:56:05 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 10:56:05 [INFO]: Sent job notification to Slack: Design Lead, Architect
+2024-12-25 10:56:05 [INFO]: Sent job notification to Slack: Data Center Project Architect, DC Design Engineering
+2024-12-25 10:56:05 [INFO]: Sent job notification to Slack: Senior Design Architect
+2024-12-25 10:56:05 [INFO]: Sent job notification to Slack: Sr. Data Center Project Architect, DC Design Engineering
+2024-12-25 10:56:05 [INFO]: Sent job notification to Slack: Senior Design Architect
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Project Architect - Federal
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Intern Sports Architect - Modeling & Design - Spring/Summer
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Senior Project Architect
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Registered Architect Project Manager
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 10:56:06 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-25 10:57:15 [INFO]: Starting resume enhancement process.
+2024-12-25 10:57:15 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 10:57:15 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 10:57:15 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 10:57:18 [INFO]: ChatGPT API call successful.
+2024-12-25 10:57:18 [INFO]: Job descriptions analysis completed.
+2024-12-25 10:57:18 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 10:57:18 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 10:57:20 [INFO]: ChatGPT API call successful.
+2024-12-25 10:57:20 [INFO]: Resume enhancement completed successfully.
+2024-12-25 11:06:02 [INFO]: Received request to send jobs with filters: {"keywords":["Design architect Revit"],"locations":["United states"],"category":"construction","results":10}
+2024-12-25 11:06:03 [INFO]: HTML Response for Debugging:
+2024-12-25 11:06:03 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:06:03 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=budZmoF3RyuGUbUafg9d9A&c=construction&k=Design+architect+Revit&cluster_id=779219132&l=United+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 11:06:03 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=4DJZPBE5ReuHWDqdNCArVQ&c=construction&k=Design+architect+Revit&cluster_id=779066880&l=United+states 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 11:06:03 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=uDu9nfj7RpKfMK82_HUP3w&c=construction&k=Design+architect+Revit&cluster_id=778274840&l=United+states 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 11:06:03 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=n0X1mQVtSbqs3IGoirLErQ&c=construction&k=Design+architect+Revit&cluster_id=779142880&l=United+states 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 11:06:03 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=1dCrkBkjRpyWFVBWOoU5DQ&c=construction&k=Design+architect+Revit&cluster_id=779143070&l=United+states 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 11:06:03 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000efha6u?impression_id=Gn37zguJRbmlDvUCP8THGg&c=construction&k=Design+architect+Revit&cluster_id=779252910&l=United+states 
+ company - Actalent
+            (Saginaw, MI) 
+ location - (Saginaw, MI) 
+
+2024-12-25 11:06:03 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ebtbzr?impression_id=rTdghan_S0-HsxO0YLbpzQ&c=construction&k=Design+architect+Revit&cluster_id=777825368&l=United+states 
+ company - Consolidated Construction Co., Inc
+            (Rapid City, SD) 
+ location - (Rapid City, SD) 
+
+2024-12-25 11:06:03 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=yVmX1fQOStensxMIZKCuAA&c=construction&k=Design+architect+Revit&cluster_id=779332275&l=United+states 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-25 11:06:03 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=6sZGt7V_TK-IC6YT4jzZsg&c=construction&k=Design+architect+Revit&cluster_id=779303700&l=United+states 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:06:03 [INFO]: title - Project/Senior Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6t?impression_id=anEjCfxhQ52Iz3tVuIZ1ng&c=construction&k=Design+architect+Revit&cluster_id=778960270&l=United+states 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-25 11:06:03 [INFO]: Extracted 10 jobs from Juju API
+2024-12-25 11:06:03 [INFO]: Fetched jobs from Juju API: 10
+2024-12-25 11:06:03 [INFO]: Processed jobs count: 10
+2024-12-25 11:06:03 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 11:06:03 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 11:06:04 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 11:06:04 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 11:06:04 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-25 11:06:04 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 11:06:04 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 11:06:04 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-25 11:06:05 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-25 11:06:05 [INFO]: Sent job notification to Slack: Project/Senior Architect - Engineering & Construction
+2024-12-25 11:06:22 [INFO]: Starting resume enhancement process.
+2024-12-25 11:06:22 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 11:06:22 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 11:06:22 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 11:06:23 [INFO]: ChatGPT API call successful.
+2024-12-25 11:06:23 [INFO]: Job descriptions analysis completed.
+2024-12-25 11:06:23 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 11:06:23 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 11:06:28 [INFO]: ChatGPT API call successful.
+2024-12-25 11:06:28 [INFO]: Resume enhancement completed successfully.
+2024-12-25 11:09:29 [INFO]: Received request to send jobs with filters: {"keywords":["Software Engineer 2"],"locations":["San Fransisco"],"category":"Engineering","results":15}
+2024-12-25 11:09:30 [INFO]: HTML Response for Debugging:
+2024-12-25 11:09:30 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:09:30 [INFO]: title - Software Engineer 2 (API /NodeJS /Javascript) 
+ link - https://www.juju.com/job/00000000ee9m9u?impression_id=ZWq7hYmSQHSIpU8O48pGgw&c=&k=Software+Engineer+2&cluster_id=777466501&l=San+Fransisco 
+ company - US Bank
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Staff Software Engineer, Edge Delivery 
+ link - https://www.juju.com/job/00000000effnl2?impression_id=yNSrL08_SMyoz0WH5JLDrw&c=&k=Software+Engineer+2&cluster_id=779232122&l=San+Fransisco 
+ company - Fastly
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Senior Quality Engineer, Software 
+ link - https://www.juju.com/job/00000000ec6vdg?impression_id=X1Hsb7vyRSWpnz2XlsfMew&c=&k=Software+Engineer+2&cluster_id=777972463&l=San+Fransisco 
+ company - Abbott
+            (Pleasanton, CA) 
+ location - (Pleasanton, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Software Development Engineer, Amazon Redshift 
+ link - https://www.juju.com/job/00000000efmnmh?impression_id=NVJLbcprQlm8vNEaxu5Jvg&c=&k=Software+Engineer+2&cluster_id=778637079&l=San+Fransisco 
+ company - Amazon
+            (East Palo Alto, CA) 
+ location - (East Palo Alto, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Software Engineer, Security - Reality Labs Wearables 
+ link - https://www.juju.com/job/00000000efxt1g?impression_id=gjPBSmQQRE-u5jZhZzCwHQ&c=&k=Software+Engineer+2&cluster_id=778822055&l=San+Fransisco 
+ company - Meta
+            (Burlingame, CA) 
+ location - (Burlingame, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Senior Software Engineer 
+ link - https://www.juju.com/job/00000000edy3xe?impression_id=H4ucYYs5Sliq0R2OGTvuDg&c=&k=Software+Engineer+2&cluster_id=778654950&l=San+Fransisco 
+ company - City National Bank
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Embedded Software Engineer, Firmware - Reality Labs 
+ link - https://www.juju.com/job/00000000efxt4d?impression_id=oj-iuAakRZ2y3XgE3FOJNA&c=&k=Software+Engineer+2&cluster_id=778729971&l=San+Fransisco 
+ company - Meta
+            (Burlingame, CA) 
+ location - (Burlingame, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Software Systems Engineer 
+ link - https://www.juju.com/job/00000000eftc5b?impression_id=IKcXZAlCSTiYrrif5KxYHw&c=&k=Software+Engineer+2&cluster_id=779391606&l=San+Fransisco 
+ company - SLAC National Accelerator Laboratory
+            (Menlo Park, CA) 
+ location - (Menlo Park, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Embedded Software Engineer, BSP/Kernel - Reality Labs 
+ link - https://www.juju.com/job/00000000efxv0m?impression_id=jxAifE0EQ4esMPhVenLlbw&c=&k=Software+Engineer+2&cluster_id=775607786&l=San+Fransisco 
+ company - Meta
+            (Burlingame, CA) 
+ location - (Burlingame, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Senior Software Engineer, Backend 
+ link - https://www.juju.com/job/00000000ef1z5m?impression_id=pXzf-ednTwe-L20uSjpp0g&c=&k=Software+Engineer+2&cluster_id=767720118&l=San+Fransisco 
+ company - Capital One
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Software Engineer, iOS (L5), eero 
+ link - https://www.juju.com/job/00000000ef3qpp?impression_id=gIuzdfoIRFqwM5I36YQofw&c=&k=Software+Engineer+2&cluster_id=779089413&l=San+Fransisco 
+ company - Amazon
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Software development Engineer ( SDE II ), Stores 
+ link - https://www.juju.com/job/00000000ee4wqq?impression_id=zUP7NaUURPqo6OubP5Qxcg&c=&k=Software+Engineer+2&cluster_id=772606699&l=San+Fransisco 
+ company - Amazon
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Software Dev Engineer II, Healthsec 
+ link - https://www.juju.com/job/00000000ee4tca?impression_id=51MGpXWSTP64nGfvxRuq8Q&c=&k=Software+Engineer+2&cluster_id=777856528&l=San+Fransisco 
+ company - Amazon
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Software Development Engineer - Device Design & Simulation, Center for Quantum Computing 
+ link - https://www.juju.com/job/00000000ef3rc3?impression_id=eFi2GeYrTYeBsiU58R-mYQ&c=&k=Software+Engineer+2&cluster_id=779089365&l=San+Fransisco 
+ company - Amazon
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: title - Lead Software Engineer, Back End (Scala, Spark, AWS) 
+ link - https://www.juju.com/job/00000000efu4gp?impression_id=WUKV0MjhQM6tDgVAiEH64Q&c=&k=Software+Engineer+2&cluster_id=767720214&l=San+Fransisco 
+ company - Capital One
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 11:09:30 [INFO]: Extracted 15 jobs from Juju API
+2024-12-25 11:09:30 [INFO]: Fetched jobs from Juju API: 15
+2024-12-25 11:09:30 [INFO]: Processed jobs count: 15
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Software Engineer 2 (API /NodeJS /Javascript)
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Staff Software Engineer, Edge Delivery
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Senior Quality Engineer, Software
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Software Development Engineer, Amazon Redshift
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Software Engineer, Security - Reality Labs Wearables
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Senior Software Engineer
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Embedded Software Engineer, Firmware - Reality Labs
+2024-12-25 11:09:31 [INFO]: Sent job notification to Slack: Software Systems Engineer
+2024-12-25 11:09:32 [INFO]: Sent job notification to Slack: Embedded Software Engineer, BSP/Kernel - Reality Labs
+2024-12-25 11:09:32 [INFO]: Sent job notification to Slack: Senior Software Engineer, Backend
+2024-12-25 11:09:32 [INFO]: Sent job notification to Slack: Software Engineer, iOS (L5), eero
+2024-12-25 11:09:32 [INFO]: Sent job notification to Slack: Software development Engineer ( SDE II ), Stores
+2024-12-25 11:09:32 [INFO]: Sent job notification to Slack: Software Dev Engineer II, Healthsec
+2024-12-25 11:09:32 [INFO]: Sent job notification to Slack: Software Development Engineer - Device Design & Simulation, Center for Quantum Computing
+2024-12-25 11:09:32 [INFO]: Sent job notification to Slack: Lead Software Engineer, Back End (Scala, Spark, AWS)
+2024-12-25 11:10:14 [INFO]: Starting resume enhancement process.
+2024-12-25 11:10:14 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 11:10:14 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 11:10:14 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 11:10:15 [INFO]: ChatGPT API call successful.
+2024-12-25 11:10:15 [INFO]: Job descriptions analysis completed.
+2024-12-25 11:10:15 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 11:10:15 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 11:10:17 [INFO]: ChatGPT API call successful.
+2024-12-25 11:10:17 [INFO]: Resume enhancement completed successfully.
+2024-12-25 11:11:03 [INFO]: Received request to send jobs with filters: {"keywords":["Software Engineer 2"],"locations":["oregon"],"category":"Engineering","results":15}
+2024-12-25 11:11:04 [INFO]: HTML Response for Debugging:
+2024-12-25 11:11:04 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:11:04 [INFO]: title - Software Engineer 2 - 3D Pipeline 
+ link - https://www.juju.com/job/00000000ef5dnh?impression_id=8euDbcEsQ_CUHlPD9Qdd9g&c=&k=Software+Engineer+2&cluster_id=779111889&l=oregon 
+ company - Nike
+            (Beaverton, OR) 
+ location - (Beaverton, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Software Engineer 2 (Hogan Deposits Mainframe Cobol) 
+ link - https://www.juju.com/job/00000000eexdn6?impression_id=_ddf1YycT0-ZJWGYusongQ&c=&k=Software+Engineer+2&cluster_id=778800287&l=oregon 
+ company - US Bank
+            (Portland, OR) 
+ location - (Portland, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Software Engineer 2 (Hogan Deposits Mainframe Cobol) 
+ link - https://www.juju.com/job/00000000ee9n3v?impression_id=tOCIc6lMS_2oJpWKzFC3sw&c=&k=Software+Engineer+2&cluster_id=777466501&l=oregon 
+ company - US Bank
+            (Portland, OR) 
+ location - (Portland, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Senior Software Engineer 
+ link - https://www.juju.com/job/00000000eeyb2c?impression_id=eXXpaxzPR_2b87z-Cb-mPQ&c=&k=Software+Engineer+2&cluster_id=779026969&l=oregon 
+ company - Red Hat
+            (Salem, OR) 
+ location - (Salem, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Embedded Software Engineer, BSP/Kernel - Reality Labs 
+ link - https://www.juju.com/job/00000000efxtql?impression_id=N6XgvmTBQkqeLncaeN7RQw&c=&k=Software+Engineer+2&cluster_id=775607786&l=oregon 
+ company - Meta
+            (Salem, OR) 
+ location - (Salem, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Software Engineer, Audio - Reality Labs 
+ link - https://www.juju.com/job/00000000efxrt0?impression_id=vvk2BH5WQcC6b7bWP_5Cfw&c=&k=Software+Engineer+2&cluster_id=778773687&l=oregon 
+ company - Meta
+            (Salem, OR) 
+ location - (Salem, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Senior Software Engineer (JavaScript/Cloud) 
+ link - https://www.juju.com/job/00000000efmq30?impression_id=WTQO9rtpQ2C2GsULD6Rcxg&c=&k=Software+Engineer+2&cluster_id=779306750&l=oregon 
+ company - Copeland
+            (Salem, OR) 
+ location - (Salem, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Software Engineer I/II or Sr (Portland, OR / Salt Lake City, UT) 
+ link - https://www.juju.com/job/00000000efefux?impression_id=w2zDAoDmQOy_P28hk9yq_Q&c=&k=Software+Engineer+2&cluster_id=779214514&l=oregon 
+ company - Pacificorp
+            (Portland, OR) 
+ location - (Portland, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - C#.Net Software Engineer 
+ link - https://www.juju.com/job/00000000ef4vxg?impression_id=LNk5olkkRQiqH0piCR9CVQ&c=&k=Software+Engineer+2&cluster_id=779105906&l=oregon 
+ company - Randstad US
+            (Beaverton, OR) 
+ location - (Beaverton, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Sr. Software Engineer 
+ link - https://www.juju.com/job/00000000eexd28?impression_id=ZISFV6GfSzKgzl1N5OHlmw&c=&k=Software+Engineer+2&cluster_id=779018181&l=oregon 
+ company - Nike
+            (Beaverton, OR) 
+ location - (Beaverton, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Software Test Engineer (SDET) 
+ link - https://www.juju.com/job/00000000eftuld?impression_id=oBvG4xTKTryLmtAxvk90AA&c=&k=Software+Engineer+2&cluster_id=779399372&l=oregon 
+ company - Abbott
+            (Beaverton, OR) 
+ location - (Beaverton, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Senior Software Engineer 
+ link - https://www.juju.com/job/00000000efymju?impression_id=gN8OCh0BQg6bNv0YICblPg&c=&k=Software+Engineer+2&cluster_id=779441212&l=oregon 
+ company - Randstad US
+            (Beaverton, OR) 
+ location - (Beaverton, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Software Engineer II, Aiml Platform 
+ link - https://www.juju.com/job/00000000ef9w2y?impression_id=YdoH-7BQSMqKz-BjFt7qGQ&c=&k=Software+Engineer+2&cluster_id=779153664&l=oregon 
+ company - Nike
+            (Beaverton, OR) 
+ location - (Beaverton, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Lead Software Engineer - Experience Engineering - US Remote 
+ link - https://www.juju.com/job/00000000efwtre?impression_id=K01HPiqLSX-CSLXkJympOw&c=&k=Software+Engineer+2&cluster_id=779421622&l=oregon 
+ company - Anywhere Real Estate
+            (Portland, OR) 
+ location - (Portland, OR) 
+
+2024-12-25 11:11:04 [INFO]: title - Graphics Software Engineer, Rendering - Reality Labs 
+ link - https://www.juju.com/job/00000000efxsqc?impression_id=idlLkSSISjO2wG4UjKDe_g&c=&k=Software+Engineer+2&cluster_id=775607792&l=oregon 
+ company - Meta
+            (Salem, OR) 
+ location - (Salem, OR) 
+
+2024-12-25 11:11:04 [INFO]: Extracted 15 jobs from Juju API
+2024-12-25 11:11:04 [INFO]: Fetched jobs from Juju API: 15
+2024-12-25 11:11:04 [INFO]: Processed jobs count: 15
+2024-12-25 11:11:04 [INFO]: Sent job notification to Slack: Software Engineer 2 - 3D Pipeline
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: Software Engineer 2 (Hogan Deposits Mainframe Cobol)
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: Software Engineer 2 (Hogan Deposits Mainframe Cobol)
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: Senior Software Engineer
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: Embedded Software Engineer, BSP/Kernel - Reality Labs
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: Software Engineer, Audio - Reality Labs
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: Senior Software Engineer (JavaScript/Cloud)
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: Software Engineer I/II or Sr (Portland, OR / Salt Lake City, UT)
+2024-12-25 11:11:05 [INFO]: Sent job notification to Slack: C#.Net Software Engineer
+2024-12-25 11:11:06 [INFO]: Sent job notification to Slack: Sr. Software Engineer
+2024-12-25 11:11:06 [INFO]: Sent job notification to Slack: Software Test Engineer (SDET)
+2024-12-25 11:11:06 [INFO]: Sent job notification to Slack: Senior Software Engineer
+2024-12-25 11:11:06 [INFO]: Sent job notification to Slack: Software Engineer II, Aiml Platform
+2024-12-25 11:11:06 [INFO]: Sent job notification to Slack: Lead Software Engineer - Experience Engineering - US Remote
+2024-12-25 11:11:06 [INFO]: Sent job notification to Slack: Graphics Software Engineer, Rendering - Reality Labs
+2024-12-25 11:26:02 [INFO]: Received request to send jobs with filters: {"keywords":["Design architect revit"],"locations":["Boston"],"category":"design","results":5}
+2024-12-25 11:26:03 [INFO]: HTML Response for Debugging:
+2024-12-25 11:26:03 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:26:03 [INFO]: title - Registered Architect and Designer-High End Residential 
+ link - https://www.juju.com/job/00000000ef8pop?impression_id=h3eYkRC5TfSSg1e0gGT4oA&c=design&k=Design+architect+revit&cluster_id=779143581&l=Boston 
+ company - Sleeping Dog Properties
+            (Boston, MA) 
+ location - (Boston, MA) 
+
+2024-12-25 11:26:03 [INFO]: Extracted 1 jobs from Juju API
+2024-12-25 11:26:03 [INFO]: Fetched jobs from Juju API: 1
+2024-12-25 11:26:03 [INFO]: Processed jobs count: 1
+2024-12-25 11:26:03 [INFO]: Sent job notification to Slack: Registered Architect and Designer-High End Residential
+2024-12-25 11:26:19 [INFO]: Starting resume enhancement process.
+2024-12-25 11:26:19 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 11:26:19 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 11:26:19 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 11:26:21 [INFO]: ChatGPT API call successful.
+2024-12-25 11:26:21 [INFO]: Job descriptions analysis completed.
+2024-12-25 11:26:21 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 11:26:21 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 11:26:24 [INFO]: ChatGPT API call successful.
+2024-12-25 11:26:24 [INFO]: Resume enhancement completed successfully.
+2024-12-25 11:27:11 [INFO]: Received request to send jobs with filters: {"keywords":["Software engineer 2"],"locations":["California"],"category":"engineering","results":15}
+2024-12-25 11:27:12 [INFO]: HTML Response for Debugging:
+2024-12-25 11:27:12 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:27:12 [INFO]: title - Cyber Software Security Engineer (Level 2 or Level 3) 
+ link - https://www.juju.com/job/00000000ees1i7?impression_id=RNtuXq1qSA6qGRTPAqftPw&c=engineering&k=Software+engineer+2&cluster_id=778975211&l=California 
+ company - Northrop Grumman
+            (Redondo Beach, CA) 
+ location - (Redondo Beach, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Software Development Engineer in Test 2 (SDET) 
+ link - https://www.juju.com/job/00000000efk2wa?impression_id=h-7WWiOHTIqdq6YjJTKVhw&c=engineering&k=Software+engineer+2&cluster_id=778157587&l=California 
+ company - Hologic
+            (San Diego, CA) 
+ location - (San Diego, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Software Engineer 2 
+ link - https://www.juju.com/job/00000000edaio7?impression_id=ZscpgAxvS8qDyCyI6CZo8Q&c=engineering&k=Software+engineer+2&cluster_id=777794569&l=California 
+ company - Intuit
+            (San Diego, CA) 
+ location - (San Diego, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Senior Software Engineer 
+ link - https://www.juju.com/job/00000000edkurq?impression_id=BWd1PvphT1WUzaKS0nYtRA&c=engineering&k=Software+engineer+2&cluster_id=778511273&l=California 
+ company - Intuit
+            (Mountain View, CA) 
+ location - (Mountain View, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Senior Software Engineer 
+ link - https://www.juju.com/job/00000000eftxwj?impression_id=k3TEjKngSZinPTycVNOtkw&c=engineering&k=Software+engineer+2&cluster_id=779400731&l=California 
+ company - Trellix
+            (San Jose, CA) 
+ location - (San Jose, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Software Engineer or a Principal Software Engineer - VMS 
+ link - https://www.juju.com/job/00000000ef6xo9?impression_id=yGdRTYmOSzC2noAYMqlTtw&c=engineering&k=Software+engineer+2&cluster_id=779123911&l=California 
+ company - Northrop Grumman
+            (San Diego, CA) 
+ location - (San Diego, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Software Engineer, Developer Tools (Application Software) 
+ link - https://www.juju.com/job/00000000eeouvs?impression_id=aTTAjpvERGuQOg9oq8Z-qA&c=engineering&k=Software+engineer+2&cluster_id=778934545&l=California 
+ company - SpaceX
+            (Hawthorne, CA) 
+ location - (Hawthorne, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Senior, Software Engineer 
+ link - https://www.juju.com/job/00000000eebl2m?impression_id=hp4z3RabTOGASunpQaKhEQ&c=engineering&k=Software+engineer+2&cluster_id=778795432&l=California 
+ company - Walmart
+            (Sunnyvale, CA) 
+ location - (Sunnyvale, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Principal/Sr. Principal Software Engineer (Secret Clearance Required) 
+ link - https://www.juju.com/job/00000000eftqr6?impression_id=ALU2NPIsRNOWgaYcS2I-TA&c=engineering&k=Software+engineer+2&cluster_id=779398447&l=California 
+ company - Northrop Grumman
+            (Manhattan Beach, CA) 
+ location - (Manhattan Beach, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Mid-Level Software Engineer 
+ link - https://www.juju.com/job/00000000eexde6?impression_id=NZXONhtcRtmDak7bh6B17A&c=engineering&k=Software+engineer+2&cluster_id=778059443&l=California 
+ company - KBR
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Software Engineer III 
+ link - https://www.juju.com/job/00000000eebjbs?impression_id=LttgYNEURJO2stWrGi-H1w&c=engineering&k=Software+engineer+2&cluster_id=773458922&l=California 
+ company - Walmart
+            (Sunnyvale, CA) 
+ location - (Sunnyvale, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Wireless Software Engineer (Starlink) 
+ link - https://www.juju.com/job/00000000efkmyq?impression_id=HlvXxPVvR7mSrZ3OCti7UQ&c=engineering&k=Software+engineer+2&cluster_id=779286977&l=California 
+ company - SpaceX
+            (Sunnyvale, CA) 
+ location - (Sunnyvale, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Senior/Principal Software Engineer (PGS Space) 
+ link - https://www.juju.com/job/00000000eekcai?impression_id=ojNQda1kSQibYqzHYT-klA&c=engineering&k=Software+engineer+2&cluster_id=778884796&l=California 
+ company - Northrop Grumman
+            (Redondo Beach, CA) 
+ location - (Redondo Beach, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Software Infrastructure Engineer (Starlink) 
+ link - https://www.juju.com/job/00000000eej8gw?impression_id=DvLLtR9TRPWDupmM2or0uw&c=engineering&k=Software+engineer+2&cluster_id=778875937&l=California 
+ company - SpaceX
+            (Sunnyvale, CA) 
+ location - (Sunnyvale, CA) 
+
+2024-12-25 11:27:12 [INFO]: title - Software Engineer, Simulations (Application Software) 
+ link - https://www.juju.com/job/00000000ee0wqv?impression_id=f4o8ByIbR9ajd4TzE2RpcA&c=engineering&k=Software+engineer+2&cluster_id=778690516&l=California 
+ company - SpaceX
+            (Hawthorne, CA) 
+ location - (Hawthorne, CA) 
+
+2024-12-25 11:27:12 [INFO]: Extracted 15 jobs from Juju API
+2024-12-25 11:27:12 [INFO]: Fetched jobs from Juju API: 15
+2024-12-25 11:27:12 [INFO]: Processed jobs count: 15
+2024-12-25 11:27:12 [INFO]: Sent job notification to Slack: Cyber Software Security Engineer (Level 2 or Level 3)
+2024-12-25 11:27:12 [INFO]: Sent job notification to Slack: Software Development Engineer in Test 2 (SDET)
+2024-12-25 11:27:12 [INFO]: Sent job notification to Slack: Software Engineer 2
+2024-12-25 11:27:13 [INFO]: Sent job notification to Slack: Senior Software Engineer
+2024-12-25 11:27:13 [INFO]: Sent job notification to Slack: Senior Software Engineer
+2024-12-25 11:27:13 [INFO]: Sent job notification to Slack: Software Engineer or a Principal Software Engineer - VMS
+2024-12-25 11:27:13 [INFO]: Sent job notification to Slack: Software Engineer, Developer Tools (Application Software)
+2024-12-25 11:27:13 [INFO]: Sent job notification to Slack: Senior, Software Engineer
+2024-12-25 11:27:13 [INFO]: Sent job notification to Slack: Principal/Sr. Principal Software Engineer (Secret Clearance Required)
+2024-12-25 11:27:14 [INFO]: Sent job notification to Slack: Mid-Level Software Engineer
+2024-12-25 11:27:14 [INFO]: Sent job notification to Slack: Software Engineer III
+2024-12-25 11:27:14 [INFO]: Sent job notification to Slack: Wireless Software Engineer (Starlink)
+2024-12-25 11:27:14 [INFO]: Sent job notification to Slack: Senior/Principal Software Engineer (PGS Space)
+2024-12-25 11:27:14 [INFO]: Sent job notification to Slack: Software Infrastructure Engineer (Starlink)
+2024-12-25 11:27:14 [INFO]: Sent job notification to Slack: Software Engineer, Simulations (Application Software)
+2024-12-25 11:27:34 [INFO]: Starting resume enhancement process.
+2024-12-25 11:27:34 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 11:27:34 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 11:27:34 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 11:27:36 [INFO]: ChatGPT API call successful.
+2024-12-25 11:27:36 [INFO]: Job descriptions analysis completed.
+2024-12-25 11:27:36 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 11:27:36 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 11:27:39 [INFO]: ChatGPT API call successful.
+2024-12-25 11:27:39 [INFO]: Resume enhancement completed successfully.
+2024-12-25 11:32:49 [INFO]: Received request to send jobs with filters: {"keywords":["design architect"],"locations":["united states"],"category":"design","results":5}
+2024-12-25 11:32:50 [INFO]: HTML Response for Debugging:
+2024-12-25 11:32:50 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:32:50 [INFO]: title - UX Architect, Design Systems 
+ link - https://www.juju.com/job/00000000ebp7vc?impression_id=NL6jtm-nTomns7EZwSXGTQ&c=design&k=design+architect&cluster_id=777783003&l=united+states 
+ company - Amazon
+            (Newark, NJ) 
+ location - (Newark, NJ) 
+
+2024-12-25 11:32:50 [INFO]: title - Data Center Project Architect, DC Design Engineering 
+ link - https://www.juju.com/job/00000000eff5tm?impression_id=ViGodZPGSxWivQ4GnFV8vw&c=design&k=design+architect&cluster_id=776577208&l=united+states 
+ company - Amazon
+            (Herndon, VA) 
+ location - (Herndon, VA) 
+
+2024-12-25 11:32:50 [INFO]: title - Solutions Architect, NATSEC Partner SA Team 
+ link - https://www.juju.com/job/00000000ee4r4b?impression_id=29ZBKY3OTryegBfUCJMcBA&c=design&k=design+architect&cluster_id=777504542&l=united+states 
+ company - Amazon
+            (Annapolis Junction, MD) 
+ location - (Annapolis Junction, MD) 
+
+2024-12-25 11:32:50 [INFO]: title - Project Architect 
+ link - https://www.juju.com/job/00000000ecgbka?impression_id=ipDbb0ggRvO3-HQBCdcmmg&c=design&k=design+architect&cluster_id=778072730&l=united+states 
+ company - Triple C - The A&E Group
+            (Dallas, TX) 
+ location - (Dallas, TX) 
+
+2024-12-25 11:32:50 [INFO]: title - Technical Architect - Salesforce 
+ link - https://www.juju.com/job/00000000edhuz4?impression_id=E9x1Am3RQxexaNdu3UiHJA&c=design&k=design+architect&cluster_id=778478079&l=united+states 
+ company - Liberty IT Solutions, LLC
+            (Melbourne, FL) 
+ location - (Melbourne, FL) 
+
+2024-12-25 11:32:50 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 11:32:50 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 11:32:50 [INFO]: Processed jobs count: 5
+2024-12-25 11:32:50 [INFO]: Sent job notification to Slack: UX Architect, Design Systems
+2024-12-25 11:32:50 [INFO]: Sent job notification to Slack: Data Center Project Architect, DC Design Engineering
+2024-12-25 11:32:50 [INFO]: Sent job notification to Slack: Solutions Architect, NATSEC Partner SA Team
+2024-12-25 11:32:51 [INFO]: Sent job notification to Slack: Project Architect
+2024-12-25 11:32:51 [INFO]: Sent job notification to Slack: Technical Architect - Salesforce
+2024-12-25 11:33:05 [INFO]: Starting resume enhancement process.
+2024-12-25 11:33:05 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 11:33:05 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 11:33:05 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 11:33:07 [INFO]: ChatGPT API call successful.
+2024-12-25 11:33:07 [INFO]: Job descriptions analysis completed.
+2024-12-25 11:33:07 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 11:33:07 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 11:33:09 [INFO]: ChatGPT API call successful.
+2024-12-25 11:33:09 [INFO]: Resume enhancement completed successfully.
+2024-12-25 11:34:19 [INFO]: Starting resume enhancement process.
+2024-12-25 11:34:19 [INFO]: Analyzing 6 job descriptions for resume enhancement.
+2024-12-25 11:34:19 [INFO]: Analyzing job descriptions: Received 6 descriptions.
+2024-12-25 11:34:19 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 11:34:21 [INFO]: ChatGPT API call successful.
+2024-12-25 11:34:21 [INFO]: Job descriptions analysis completed.
+2024-12-25 11:34:21 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 11:34:21 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 800
+2024-12-25 11:34:23 [INFO]: ChatGPT API call successful.
+2024-12-25 11:34:23 [INFO]: Resume enhancement completed successfully.
+2024-12-25 11:34:57 [INFO]: Received request to send jobs with filters: {"keywords":["Design architect revit"],"locations":["Seattle"],"category":"construction","results":5}
+2024-12-25 11:34:58 [INFO]: HTML Response for Debugging:
+2024-12-25 11:34:58 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:34:58 [INFO]: Extracted 0 jobs from Juju API
+2024-12-25 11:34:58 [INFO]: Fetched jobs from Juju API: 0
+2024-12-25 11:34:58 [INFO]: Processed jobs count: 0
+2024-12-25 11:34:58 [INFO]: No jobs found. Sent empty notification to Slack.
+2024-12-25 11:35:09 [INFO]: Received request to send jobs with filters: {"keywords":["Design architect revit"],"locations":["united states"],"category":"construction","results":5}
+2024-12-25 11:35:10 [INFO]: HTML Response for Debugging:
+2024-12-25 11:35:10 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 11:35:10 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=sVtzHLRySJC2BorQOtFq9A&c=construction&k=Design+architect+revit&cluster_id=779219132&l=united+states 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 11:35:10 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=a2eCmOSHQ7qzuHG9TFlkTw&c=construction&k=Design+architect+revit&cluster_id=779066880&l=united+states 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 11:35:10 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=VeZc4gZ1SYKAocOrRxKLNA&c=construction&k=Design+architect+revit&cluster_id=778274840&l=united+states 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 11:35:10 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=cHIS3JTLQ3uABXK4SJAlMA&c=construction&k=Design+architect+revit&cluster_id=779142880&l=united+states 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 11:35:10 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=oC5sDifUSOy48FWpLCOFmQ&c=construction&k=Design+architect+revit&cluster_id=779143070&l=united+states 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 11:35:10 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 11:35:10 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 11:35:10 [INFO]: Processed jobs count: 5
+2024-12-25 11:35:10 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 11:35:10 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 11:35:10 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 11:35:10 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 11:35:10 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-25 11:35:18 [INFO]: Starting resume enhancement process.
+2024-12-25 11:35:18 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 11:35:18 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 11:35:18 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 11:35:19 [INFO]: ChatGPT API call successful.
+2024-12-25 11:35:19 [INFO]: Job descriptions analysis completed.
+2024-12-25 11:35:19 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 11:35:19 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 1200
+2024-12-25 11:35:24 [INFO]: ChatGPT API call successful.
+2024-12-25 11:35:24 [INFO]: Resume enhancement and cover letter generation completed successfully.
+2024-12-25 12:01:31 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":10}
+2024-12-25 12:01:31 [ERROR]: Error in processing job notifications: Cannot read properties of undefined (reading '0')
+2024-12-25 12:04:41 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":10}
+2024-12-25 12:04:41 [ERROR]: Error in processing job notifications: Cannot read properties of undefined (reading '0')
+2024-12-25 12:05:30 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":10}
+2024-12-25 12:05:30 [ERROR]: Error in processing job notifications: Cannot read properties of undefined (reading '0')
+2024-12-25 12:05:52 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":5}
+2024-12-25 12:05:52 [ERROR]: Error in processing job notifications: Cannot read properties of undefined (reading '0')
+2024-12-25 12:08:32 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":5}
+2024-12-25 12:08:33 [INFO]: HTML Response for Debugging:
+2024-12-25 12:08:33 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 12:08:33 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=BGp1NefMSdCqsBLyviq9Fw&c=construction&k=Design+Architect+Revit&cluster_id=779219132&l=undefined 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 12:08:33 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=FkhTW3T9T2ya-v-zmLIGuw&c=construction&k=Design+Architect+Revit&cluster_id=779066880&l=undefined 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 12:08:33 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=FrTR4pL8TZOjsxc2Htxw1g&c=construction&k=Design+Architect+Revit&cluster_id=778274840&l=undefined 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 12:08:33 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=HOy2O-VQR5yzu_2fhP7rAQ&c=construction&k=Design+Architect+Revit&cluster_id=779142880&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:08:33 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=nFpfa93cTMC3QJB77NXW0Q&c=construction&k=Design+Architect+Revit&cluster_id=779143070&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:08:33 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 12:08:33 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 12:08:33 [INFO]: Processed jobs count: 5
+2024-12-25 12:08:33 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 12:08:33 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:08:33 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 12:08:33 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 12:08:34 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-25 12:10:57 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":5}
+2024-12-25 12:10:57 [INFO]: HTML Response for Debugging:
+2024-12-25 12:10:57 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 12:10:57 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=l6905j4cScWUFa2ZQ2JrIQ&c=construction&k=Design+Architect+Revit&cluster_id=779219132&l=undefined 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 12:10:57 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=GRyN2dn0QNOE9oBno3RxFg&c=construction&k=Design+Architect+Revit&cluster_id=779066880&l=undefined 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 12:10:57 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=rLQ9l46FS2OIdRTsvqX1-w&c=construction&k=Design+Architect+Revit&cluster_id=778274840&l=undefined 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 12:10:57 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=P-VaIpUEQo218_2GKp9dhA&c=construction&k=Design+Architect+Revit&cluster_id=779142880&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:10:57 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=1bMy7asjReC7azHB4LceWQ&c=construction&k=Design+Architect+Revit&cluster_id=779143070&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:10:57 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 12:10:57 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 12:10:57 [INFO]: Processed jobs count: 5
+2024-12-25 12:10:57 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 12:10:58 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:10:58 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 12:10:58 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 12:10:58 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-25 12:11:06 [INFO]: Starting resume enhancement process.
+2024-12-25 12:11:06 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 12:11:06 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 12:11:06 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 12:11:08 [INFO]: ChatGPT API call successful.
+2024-12-25 12:11:08 [INFO]: Job descriptions analysis completed.
+2024-12-25 12:11:08 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 12:11:08 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 1200
+2024-12-25 12:11:13 [INFO]: ChatGPT API call successful.
+2024-12-25 12:11:13 [INFO]: Resume enhancement and cover letter generation completed successfully.
+2024-12-25 12:13:34 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":10}
+2024-12-25 12:13:34 [INFO]: HTML Response for Debugging:
+2024-12-25 12:13:35 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 12:13:35 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=QalQeVA8Qo6HJQHmfshTkA&c=construction&k=Design+Architect+Revit&cluster_id=779219132&l=undefined 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 12:13:35 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=byYP6kpfT5a2IW50qsykKA&c=construction&k=Design+Architect+Revit&cluster_id=779066880&l=undefined 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 12:13:35 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=2EbMo4lSQg-e4hLYmsHDmw&c=construction&k=Design+Architect+Revit&cluster_id=778274840&l=undefined 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 12:13:35 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=7tK386lySNOqXkoeWMsm4A&c=construction&k=Design+Architect+Revit&cluster_id=779142880&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:13:35 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=DDyQxkoIQUeOXraHhwFqyQ&c=construction&k=Design+Architect+Revit&cluster_id=779143070&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:13:35 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000efha6u?impression_id=0IHQfQE_RDOVOYlLRlwhaw&c=construction&k=Design+Architect+Revit&cluster_id=779252910&l=undefined 
+ company - Actalent
+            (Saginaw, MI) 
+ location - (Saginaw, MI) 
+
+2024-12-25 12:13:35 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ebtbzr?impression_id=88jTrM_HSv2OhS1lKo8Zlg&c=construction&k=Design+Architect+Revit&cluster_id=777825368&l=undefined 
+ company - Consolidated Construction Co., Inc
+            (Rapid City, SD) 
+ location - (Rapid City, SD) 
+
+2024-12-25 12:13:35 [INFO]: title - Architect LSNA 
+ link - https://www.juju.com/job/00000000efoqxs?impression_id=W2lEfQv5ScOdPhdA0k_GFQ&c=construction&k=Design+Architect+Revit&cluster_id=779332275&l=undefined 
+ company - Jacobs
+            (Indianapolis, IN) 
+ location - (Indianapolis, IN) 
+
+2024-12-25 12:13:35 [INFO]: title - Lead Architect - Transportation 
+ link - https://www.juju.com/job/00000000efmgz2?impression_id=cUgwKO1rT0StDT1AweEHQg&c=construction&k=Design+Architect+Revit&cluster_id=779303700&l=undefined 
+ company - WSP USA
+            (San Francisco, CA) 
+ location - (San Francisco, CA) 
+
+2024-12-25 12:13:35 [INFO]: title - Project/Senior Architect - Engineering & Construction 
+ link - https://www.juju.com/job/00000000eeqr6t?impression_id=MhO1ZcPoQJWZyLMlo3YwMw&c=construction&k=Design+Architect+Revit&cluster_id=778960270&l=undefined 
+ company - Texas Tech University
+            (Lubbock, TX) 
+ location - (Lubbock, TX) 
+
+2024-12-25 12:13:35 [INFO]: Extracted 10 jobs from Juju API
+2024-12-25 12:13:35 [INFO]: Fetched jobs from Juju API: 10
+2024-12-25 12:13:35 [INFO]: Processed jobs count: 10
+2024-12-25 12:13:35 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 12:13:35 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:13:35 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 12:13:35 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 12:13:36 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-25 12:13:36 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:13:36 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:13:36 [INFO]: Sent job notification to Slack: Architect LSNA
+2024-12-25 12:13:37 [INFO]: Sent job notification to Slack: Lead Architect - Transportation
+2024-12-25 12:13:37 [INFO]: Sent job notification to Slack: Project/Senior Architect - Engineering & Construction
+2024-12-25 12:13:46 [INFO]: Starting resume enhancement process.
+2024-12-25 12:13:46 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 12:13:46 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 12:13:46 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 12:13:48 [INFO]: ChatGPT API call successful.
+2024-12-25 12:13:48 [INFO]: Job descriptions analysis completed.
+2024-12-25 12:13:48 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 12:13:48 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 1200
+2024-12-25 12:13:54 [INFO]: ChatGPT API call successful.
+2024-12-25 12:13:54 [INFO]: Resume enhancement and cover letter generation completed successfully.
+2024-12-25 12:19:23 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":5}
+2024-12-25 12:19:24 [INFO]: HTML Response for Debugging:
+2024-12-25 12:19:24 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 12:19:24 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=saCTCMpcTQiKDleysJYVJA&c=construction&k=Design+Architect+Revit&cluster_id=779219132&l=undefined 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 12:19:24 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=6Ff_5GlqS9i0AjQX1hSW2A&c=construction&k=Design+Architect+Revit&cluster_id=779066880&l=undefined 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 12:19:24 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=wh2HOXN2TcqKF35Yj3Ld0w&c=construction&k=Design+Architect+Revit&cluster_id=778274840&l=undefined 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 12:19:24 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=pzw4dbWgRsySGBytFcPVlQ&c=construction&k=Design+Architect+Revit&cluster_id=779142880&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:19:24 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=mPbOZ29HRRq_OGtIwBZiQA&c=construction&k=Design+Architect+Revit&cluster_id=779143070&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:19:24 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 12:19:24 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 12:19:24 [INFO]: Processed jobs count: 5
+2024-12-25 12:19:24 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 12:19:25 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:19:25 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 12:19:25 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 12:19:25 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-25 12:19:33 [INFO]: Starting resume enhancement process.
+2024-12-25 12:19:33 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 12:19:33 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 12:19:33 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 12:19:35 [INFO]: ChatGPT API call successful.
+2024-12-25 12:19:35 [INFO]: Job descriptions analysis completed.
+2024-12-25 12:19:35 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 12:19:35 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 1200
+2024-12-25 12:19:40 [INFO]: ChatGPT API call successful.
+2024-12-25 12:19:40 [INFO]: Resume enhancement and cover letter generation completed successfully.
+2024-12-25 12:27:52 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Oregon","category":"construction","results":5}
+2024-12-25 12:27:53 [INFO]: HTML Response for Debugging:
+2024-12-25 12:27:53 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 12:27:53 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=IZGqcX9BQtm-IEulye-shg&c=construction&k=Design+Architect+Revit&cluster_id=779219132&l=undefined 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 12:27:53 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=pEOXhE-dQQarxsSbhurVyg&c=construction&k=Design+Architect+Revit&cluster_id=779066880&l=undefined 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 12:27:53 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=QiYRf_bWTHetoLh5W4Nh8Q&c=construction&k=Design+Architect+Revit&cluster_id=778274840&l=undefined 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 12:27:53 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=vIqW0MErR-204lCFo2O8Bg&c=construction&k=Design+Architect+Revit&cluster_id=779142880&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:27:53 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=kZvrfdedS62KD1KkqM7yqA&c=construction&k=Design+Architect+Revit&cluster_id=779143070&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:27:53 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 12:27:53 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 12:27:53 [INFO]: Processed jobs count: 5
+2024-12-25 12:27:53 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 12:27:53 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:27:53 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 12:27:53 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 12:27:53 [INFO]: Sent job notification to Slack: Architect - Construction
+2024-12-25 12:28:04 [INFO]: Starting resume enhancement process.
+2024-12-25 12:28:04 [INFO]: Analyzing 1 job descriptions for resume enhancement.
+2024-12-25 12:28:04 [INFO]: Analyzing job descriptions: Received 1 descriptions.
+2024-12-25 12:28:04 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 500
+2024-12-25 12:28:05 [INFO]: ChatGPT API call successful.
+2024-12-25 12:28:05 [INFO]: Job descriptions analysis completed.
+2024-12-25 12:28:05 [INFO]: Job descriptions analysis completed for resume enhancement.
+2024-12-25 12:28:05 [INFO]: Making ChatGPT API call with model: gpt-3.5-turbo-0125, maxTokens: 1200
+2024-12-25 12:28:11 [INFO]: ChatGPT API call successful.
+2024-12-25 12:28:11 [INFO]: Resume enhancement and cover letter generation completed successfully.
+2024-12-25 12:56:37 [INFO]: Received request to send jobs with filters: {"keywords":"Design Architect Revit","location":"Texas","category":"construction","results":5}
+2024-12-25 12:56:38 [INFO]: HTML Response for Debugging:
+2024-12-25 12:56:38 [INFO]: Fetched HTML selectors using Cheerio.
+2024-12-25 12:56:38 [INFO]: title - Project Architect - IDIQ Design 
+ link - https://www.juju.com/job/00000000efepvp?impression_id=4ie3tnLBTFOCpOYELloaWQ&c=construction&k=Design+Architect+Revit&cluster_id=779219132&l=undefined 
+ company - RQ Construction, LLC
+            (Carlsbad, CA) 
+ location - (Carlsbad, CA) 
+
+2024-12-25 12:56:38 [INFO]: title - Architect 
+ link - https://www.juju.com/job/00000000ef1s01?impression_id=Ss81gYFIS5yuV-fqxzng1g&c=construction&k=Design+Architect+Revit&cluster_id=779066880&l=undefined 
+ company - Abel Construction
+            (Louisville, KY) 
+ location - (Louisville, KY) 
+
+2024-12-25 12:56:38 [INFO]: title - General Engineer / Architect - Construction 
+ link - https://www.juju.com/job/00000000ecxqsf?impression_id=OmQHc5OCRUSGE85ztb8AkQ&c=construction&k=Design+Architect+Revit&cluster_id=778274840&l=undefined 
+ company - Chenega Corporation
+            (Tucson, AZ) 
+ location - (Tucson, AZ) 
+
+2024-12-25 12:56:38 [INFO]: title - Jr. Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8oq6?impression_id=JU5HtzEzSWaXoQ978-L86w&c=construction&k=Design+Architect+Revit&cluster_id=779142880&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:56:38 [INFO]: title - Architect - Construction 
+ link - https://www.juju.com/job/00000000ef8p0v?impression_id=DY5OwdPOTRWSZUw9Ar-xZw&c=construction&k=Design+Architect+Revit&cluster_id=779143070&l=undefined 
+ company - Path Construction
+            (Arlington Heights, IL) 
+ location - (Arlington Heights, IL) 
+
+2024-12-25 12:56:38 [INFO]: Extracted 5 jobs from Juju API
+2024-12-25 12:56:38 [INFO]: Fetched jobs from Juju API: 5
+2024-12-25 12:56:38 [INFO]: Processed jobs count: 5
+2024-12-25 12:56:39 [INFO]: Sent job notification to Slack: Project Architect - IDIQ Design
+2024-12-25 12:56:39 [INFO]: Sent job notification to Slack: Architect
+2024-12-25 12:56:39 [INFO]: Sent job notification to Slack: General Engineer / Architect - Construction
+2024-12-25 12:56:39 [INFO]: Sent job notification to Slack: Jr. Architect - Construction
+2024-12-25 12:56:39 [INFO]: Sent job notification to Slack: Architect - Construction
