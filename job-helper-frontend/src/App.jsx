@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<JobAggregator />} />
+        <Route path="/" element={<Home />} />
         <Route path="/resume-enhancer" element={<ResumeEnhancer />} />
         <Route path="/home" element={<Home />} />
       </Routes>
