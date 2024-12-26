@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.VITE_BACKEND_URL;
+const API_BASE_URL = "https://job-automation-tool-backend.onrender.com";
 
 const postRequest = async (url, payload) => {
   try {
