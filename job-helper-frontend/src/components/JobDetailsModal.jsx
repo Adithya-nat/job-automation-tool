@@ -84,21 +84,44 @@ const JobDetailsModal = ({ job, onClose }) => {
           className="block w-full mt-4 text-sm text-gray-600"
           onChange={(e) => setResumeFile(e.target.files[0])}
         />
-        <p className="text-gray-600 text-center mt-4 mb-6">
-          Upload your resume to get some suggestions from our <span className="font-bold text-teal-600">Job Search Assistant</span>.
-        </p>
+        {!enhancements && !coverLetter && (
+          <p className="text-gray-600 text-center mt-4 mb-6">
+            Upload your resume to get some suggestions from our <span className="font-bold text-teal-600">Job Search Assistant</span>.
+          </p>
+        )}
         <button
-          className="bg-teal-950 text-white px-4 py-2 rounded mt-4 hover:bg-teal-600"
+          className={`bg-teal-950 text-white px-4 py-2 rounded mt-4 hover:bg-teal-600 flex items-center justify-center ${loading ? 'opacity-50' : ''}`}
           onClick={handleUpload}
           disabled={loading}
         >
           {loading ? (
-            <span className="animate-spin border-2 border-blue-500 border-t-transparent rounded-full w-5 h-5 inline-block"></span>
+            <>
+              <svg
+                className="animate-spin h-5 w-5 mr-3 text-white"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                />
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8v4a4 4 0 100 8V4z"
+                />
+              </svg>
+              Processing...
+            </>
           ) : (
             'Upload Resume'
           )}
         </button>
-        {loading && <p className="mt-2 text-gray-500">Processing...</p>}
         {(enhancements || coverLetter) && (
           <div
             className="mt-6 overflow-y-auto max-h-[60vh] divide-y divide-gray-300"

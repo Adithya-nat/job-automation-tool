@@ -18,6 +18,7 @@ const corsOptions = {
     origin: (origin, callback) => {
         if (!origin || // Allow internal calls without origin (e.g., health checks)
             origin.startsWith('https://job-automation-tool') || // Allow your production frontend
+            origin.startsWith('http://localhost:5173') || // local frontend
             origin.startsWith('http://localhost:8090')) { // Allow localhost (for local testing)
             callback(null, true);
         } else {
