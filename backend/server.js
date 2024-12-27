@@ -21,8 +21,7 @@ const corsOptions = {
         } else {
             callback(new Error('Not allowed by CORS'));
         }
-    },
-    allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'x-api-key'],
+    }
 };
 
 app.use(cors(corsOptions));
