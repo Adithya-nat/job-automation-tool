@@ -90,10 +90,16 @@ const enhanceResume = async (req, res) => {
         logger.info("Starting resume enhancement process.");
         logger.info(`Analyzing ${jobDescriptions.length} job descriptions for resume enhancement.`);
         
-        // Step 1: Analyze job descriptions
+        // Step 1: Analyze job descriptions with API key header
         const analysisResponse = await axios.post(
             'http://localhost:8090/api/analyze-job-descriptions',
-            { jobDescriptions }
+            { jobDescriptions },
+            {
+                headers: {
+                    'x-api-key': process.env.API_KEY, // Include API key header
+                    'Content-Type': 'application/json',
+                },
+            }
         );
 
         const analysis = analysisResponse.data.analysis;

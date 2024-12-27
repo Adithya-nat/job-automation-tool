@@ -1,11 +1,15 @@
 import axios from 'axios';
 
 const API_BASE_URL = process.env.BACKEND_URL;
+const API_KEY = process.env.BACKEND_API_KEY
 
 const postRequest = async (url, payload) => {
   try {
     const response = await axios.post(`${API_BASE_URL}${url}`, payload, {
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json',
+        'x-api-key': `${API_KEY}`
+    },
     });
     return response;
   } catch (error) {
