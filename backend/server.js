@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "https://job-automation-tool-3y979iss2-adithyanats-projects.vercel.app"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Origin", "https://job-automation-tool-*"); // update to match the domain you will make the request from
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, x-api-key");
     next();
   });
