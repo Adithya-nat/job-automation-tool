@@ -86,7 +86,7 @@ const JobDetailsModal = ({ job, onClose }) => {
         />
         {!enhancements && !coverLetter && (
           <p className="text-gray-600 text-center mt-4 mb-6">
-            Upload your resume to get some suggestions from our <span className="font-bold text-teal-600">Job Search Assistant</span>.
+            Upload your resume to get some suggestions from our <span className="font-bold decoration-stone-950">Job Search Assistant</span>.
           </p>
         )}
         <button

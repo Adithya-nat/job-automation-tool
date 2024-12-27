@@ -18,6 +18,9 @@ puppeteer.use(StealthPlugin());
 const fetchJobsFromJujuAPI = async (keyword, location, category, results) => {
     try {
         const url = `https://www.juju.com/jobs?k=${keyword}&l=${location}&c=${category}&jpp=${results}`;
+
+        logger.info(`Constructed url: ${url}`);
+        
         const response = await axios.get(url);
         const html = response.data;
 

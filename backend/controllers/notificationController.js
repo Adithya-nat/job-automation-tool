@@ -19,13 +19,13 @@ const sendSlackNotification = async (req, res) => {
 
 const sendFilteredJobsToSlack = async (req, res) => {
     try {
-        const { keywords, locations, category, results } = req.body.filters;
+        const { keywords, location, category, results } = req.body.filters;
         const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);
 
         logger.info(`Received request to send jobs with filters: ${JSON.stringify(req.body.filters)}`);
 
         // Fetch job listings
-        const jujuJobs = await fetchJobsFromJujuAPI(keywords, locations, category, results);
+        const jujuJobs = await fetchJobsFromJujuAPI(keywords, location, category, results);
 
         logger.info(`Fetched jobs from Juju API: ${jujuJobs.length}`);
 
