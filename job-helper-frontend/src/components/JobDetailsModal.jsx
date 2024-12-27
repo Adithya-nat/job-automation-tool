@@ -75,7 +75,7 @@ const JobDetailsModal = ({ job, onClose }) => {
           href={job.link}
           target="_blank"
           rel="noreferrer"
-          className="text-blue-500 hover:underline mt-2 inline-block"
+          className="text-bg-lime-600 hover:underline mt-2 inline-block"
         >
           Apply Here
         </a>
@@ -86,7 +86,7 @@ const JobDetailsModal = ({ job, onClose }) => {
         />
         <h1 className="text-xl font-bold mb-4">Upload your resume to get some suggestions from our Job Search Assistant.</h1>
         <button
-          className="bg-blue-500 text-white px-4 py-2 rounded mt-4 hover:bg-blue-600"
+          className="bg-teal-950 text-white px-4 py-2 rounded mt-4 hover:bg-teal-600"
           onClick={handleUpload}
           disabled={loading}
         >

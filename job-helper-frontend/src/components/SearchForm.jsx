@@ -45,7 +45,7 @@ const SearchForm = ({ onSearch }) => {
       />
       <button
         type="submit"
-        className="bg-blue-500 text-white w-full p-2 rounded hover:bg-blue-600 flex justify-center items-center"
+        className="bg-stone-950 text-white w-full p-2 rounded hover:bg-stone-800 flex justify-center items-center"
         disabled={loading}
       >
         {loading ? <span className="animate-spin border-2 border-blue-500 border-t-transparent rounded-full w-5 h-5 inline-block"></span> : 'Search Jobs'}
