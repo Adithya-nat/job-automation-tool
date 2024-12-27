@@ -26,7 +26,6 @@
 1. **Node.js** (v16+)
 2. **MongoDB** (for backend database)
 3. Deployment Platforms:
-   - **Render** (Backend)
    - **Vercel** (Frontend)
 
 ---
