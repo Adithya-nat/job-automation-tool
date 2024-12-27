@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <div className="max-w-6xl mx-auto p-6">
-      <h1 className="text-4xl font-bold text-center mb-8">Job Search</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 hover:font-mono">Job Search</h1>
       <SearchForm onSearch={handleSearch} />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {jobs.map((job, index) => (
