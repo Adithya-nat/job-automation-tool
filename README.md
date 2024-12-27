@@ -130,7 +130,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Support
 
-For questions or support, please contact **[your email or GitHub handle]**.
+For questions or support, please contact **[shobipaapa@gmail.com]**.
 
 ---
 
