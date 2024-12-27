@@ -16,7 +16,9 @@ app.use(express.json());
 // CORS Configuration
 const corsOptions = {
     origin: (origin, callback) => {
-        if (origin && (origin.startsWith('https://job-automation-tool' && origin.startsWith('http://localhost:8090')))) {
+        if (!origin || // Allow internal calls without origin (e.g., health checks)
+            origin.startsWith('https://job-automation-tool') || // Allow your production frontend
+            origin.startsWith('http://localhost:8090')) { // Allow localhost (for local testing)
             callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
@@ -24,10 +26,8 @@ const corsOptions = {
     }
 };
 
+// Apply CORS middleware
 app.use(cors(corsOptions));
-
-//   // Disable CORS
-// app.use(cors({ origin: false }));
 
 // API Routes
 app.use('/api', chatgptRoutes);
@@ -35,17 +35,18 @@ app.use('/slack', notificationRoutes);
 
 // Connect to MongoDB
 mongoose.connect(
-    `${process.env.MONGO_URI}`, 
+    process.env.MONGO_URI, 
     { useNewUrlParser: true, useUnifiedTopology: true }
 )
     .then(() => console.log("MongoDB Connected"))
     .catch(err => console.error("MongoDB Connection Failed:", err));
 
-// Health Check Endpoint
+// Root Endpoint
 app.get('/', (req, res) => {
     res.send('Job Automation Tool API is running');
 });
 
+// Health Check Endpoint
 app.get('/health', (req, res) => {
     const healthcheck = {
         uptime: process.uptime(),
