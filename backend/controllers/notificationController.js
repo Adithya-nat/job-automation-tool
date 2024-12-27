@@ -34,17 +34,17 @@ const sendFilteredJobsToSlack = async (req, res) => {
         logger.info(`Processed jobs count: ${processedJobs.length}`);
 
         // Send notifications to Slack
-        if (processedJobs.length === 0) {
-            await webhook.send({ text: "No jobs found for your filters." });
-            logger.info("No jobs found. Sent empty notification to Slack.");
-        } else {
-            for (const job of processedJobs) {
-                await webhook.send({
-                    text: job.description,
-                });
-                logger.info(`Sent job notification to Slack: ${job.title}`);
-            }
-        }
+        // if (processedJobs.length === 0) {
+        //     await webhook.send({ text: "No jobs found for your filters." });
+        //     logger.info("No jobs found. Sent empty notification to Slack.");
+        // } else {
+        //     for (const job of processedJobs) {
+        //         await webhook.send({
+        //             text: job.description,
+        //         });
+        //         logger.info(`Sent job notification to Slack: ${job.title}`);
+        //     }
+        // }
 
         // Send processed jobs as server response
         res.json({ jobs: processedJobs });
