@@ -84,7 +84,9 @@ const JobDetailsModal = ({ job, onClose }) => {
           className="block w-full mt-4 text-sm text-gray-600"
           onChange={(e) => setResumeFile(e.target.files[0])}
         />
-        <h1 className="text-xl font-bold mb-4">Upload your resume to get some suggestions from our Job Search Assistant.</h1>
+        <p className="text-gray-600 text-center mt-4 mb-6">
+          Upload your resume to get some suggestions from our <span className="font-bold text-teal-600">Job Search Assistant</span>.
+        </p>
         <button
           className="bg-teal-950 text-white px-4 py-2 rounded mt-4 hover:bg-teal-600"
           onClick={handleUpload}
