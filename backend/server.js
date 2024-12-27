@@ -16,7 +16,7 @@ app.use(express.json());
 // CORS Configuration
 const corsOptions = {
     origin: (origin, callback) => {
-        if (origin && origin.startsWith('https://job-automation-tool')) {
+        if (origin && (origin.startsWith('https://job-automation-tool' && origin.startsWith('http://localhost:8090')))) {
             callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
