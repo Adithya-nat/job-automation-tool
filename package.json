@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "test": "jest --runInBand",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "postinstall": "puppeteer install"
   },
   "keywords": [],
   "author": "",
