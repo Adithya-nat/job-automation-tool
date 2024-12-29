@@ -144,7 +144,7 @@ const generateProfessionalResumePDF = async (resumeJSON) => {
 
     fs.writeFileSync('test_resume_html.html', htmlContent);
 
-    const browser = getPuppeteerBrowser();
+    const browser = await getPuppeteerBrowser();
     const page = await browser.newPage();
     await page.setContent(htmlContent);
     const pdfBuffer = await page.pdf({ format: 'A4' });
