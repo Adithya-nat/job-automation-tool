@@ -1,6 +1,8 @@
 const axios = require('axios');
 const logger = require('../utils/logger'); 
 const chatGptUtil = require('../utils/chatGptUtil');
+const { generateProfessionalResumePDF } = require('../utils/pdfUtil');
+const { getEnhancedResume } = require('../utils/chatGptUtil')
 
 // Controllers
 const getChatGPTResponse = async (req, res) => {
@@ -140,4 +142,41 @@ const enhanceResume = async (req, res) => {
     }
 };
 
-module.exports = { getChatGPTResponse, testChatGPT, analyzeJobDescriptions, enhanceResume };
+const draftEnhancedResume = async (req, res) => {
+    try {
+        const { resume, enhancements } = req.body;
+
+        if (!resume || !enhancements) {
+            logger.warn("Invalid inputs for drafting enhanced resume.");
+            return res.status(400).json({ error: "Invalid inputs for drafting enhanced resume." });
+        }
+
+        logger.info("Starting enhanced resume drafting process.");
+
+        // Step 1: Get structured JSON from ChatGPT
+        let structuredResume = await getEnhancedResume(resume, enhancements);
+
+        // Remove any code block formatting (e.g., ```json and ```)
+        structuredResume = structuredResume.replace(/```json|```/g, "").trim();
+
+        logger.info(`Cleaned StructuredResume: ${structuredResume}`);
+
+        // Step 2: Parse the structured response into JSON
+        const parsedResume = JSON.parse(structuredResume);
+
+        // Step 3: Generate a professional resume PDF
+        const pdfBuffer = await generateProfessionalResumePDF(parsedResume);
+
+        logger.info("Enhanced resume drafting completed successfully.");
+
+        // Properly set headers and send the PDF
+        res.setHeader('Content-Type', 'application/pdf');
+        res.setHeader('Content-Disposition', 'attachment; filename=Enhanced_Resume.pdf');
+        res.end(pdfBuffer); // Use res.end for binary data
+    } catch (error) {
+        logger.error(`Error in draftEnhancedResume: ${error.message}`);
+        res.status(500).json({ error: error.message });
+    }
+};
+
+module.exports = { getChatGPTResponse, testChatGPT, analyzeJobDescriptions, enhanceResume, draftEnhancedResume };
