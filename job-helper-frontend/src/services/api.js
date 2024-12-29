@@ -22,3 +22,23 @@ export const searchJobs = async (filters) => postRequest('/slack/jobs', { filter
 
 export const enhanceResume = async (resume, jobDescriptions) =>
   postRequest('/api/enhance-resume', { resume, jobDescriptions });
+
+export const draftEnhancedResume = async (payload) =>{
+
+  postRequest('/api/draft-enhanced-resume', payload);
+
+  try {
+    const response = await axios.post(`${API_BASE_URL}/api/draft-enhanced-resume`, payload, {
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': `${API_KEY}`,
+      },
+      responseType: 'arraybuffer', // Ensure Axios handles binary data correctly
+    });
+    return response;
+  } catch (error) {
+    console.error(`Error in API request to ${url}:`, error);
+    throw error;
+  }
+}
+
