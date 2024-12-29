@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "npx puppeteer browsers install chrome && node backend/server.js",
     "test": "jest --runInBand",
-    "test:watch": "jest --watch",
-    "postinstall": "puppeteer install"
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
