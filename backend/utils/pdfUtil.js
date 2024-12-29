@@ -2,6 +2,25 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const logger = require('./logger');
 
+/**
+ * Launch Puppeteer in a way compatible with Render.
+ */
+const getPuppeteerBrowser = async () => {
+    return await puppeteer.launch({
+      headless: "new", // Ensure Puppeteer runs headlessly
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-accelerated-2d-canvas',
+        '--no-first-run',
+        '--no-zygote',
+        '--single-process', // Run as a single process
+        '--disable-gpu'
+      ],
+    });
+  };
+
 const createResumeHTML = (
     contactInformation,
     summary,
@@ -125,7 +144,7 @@ const generateProfessionalResumePDF = async (resumeJSON) => {
 
     fs.writeFileSync('test_resume_html.html', htmlContent);
 
-    const browser = await puppeteer.launch();
+    const browser = getPuppeteerBrowser();
     const page = await browser.newPage();
     await page.setContent(htmlContent);
     const pdfBuffer = await page.pdf({ format: 'A4' });
