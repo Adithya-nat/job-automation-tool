@@ -41,34 +41,51 @@ const createResumeHTML = (
             margin: 20px;
             color: #333;
         }
-        h1, h2 {
-            color: #0056b3;
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
         }
         .contact-info {
-            margin-bottom: 20px;
-            font-size: 14px;
-            line-height: 1.5;
+            margin-bottom: 15px;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
         }
         .contact-info span {
-            display: block;
+            flex: 1;
+            margin-right: 10px;
+            word-wrap: break-word;
         }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .section-title {
-            font-size: 16px;
+            font-size: 14px;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             border-bottom: 1px solid #ddd;
-            padding-bottom: 5px;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
         }
         .education-item, .experience-item, .skill-item, .certification-item, .reference-item {
-            margin-bottom: 10px;
-            line-height: 1.6;
+            font-size: 12px;
+            line-height: 1.4;
         }
         ul {
             margin: 5px 0;
-            padding-left: 20px;
+            padding-left: 15px;
+            font-size: 12px;
+        }
+        a {
+            font-size: 12px;
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -87,31 +104,37 @@ const createResumeHTML = (
 
     <div class="section">
         <div class="section-title">Education</div>
-        ${education.map(edu => `
-            <div class="education-item">
-                <strong>${edu.institution}</strong> - ${edu.degree} (${edu.graduationYear})
-                <br>GPA: ${edu.GPA || 'Not available'}
-            </div>
-        `).join('')}
+        <div class="content-grid">
+            ${education.map(edu => `
+                <div class="education-item">
+                    <strong>${edu.institution}</strong> - ${edu.degree} (${edu.graduationYear})
+                    <br>GPA: ${edu.GPA || 'Not available'}
+                </div>
+            `).join('')}
+        </div>
     </div>
 
     <div class="section">
         <div class="section-title">Professional Experience</div>
-        ${professionalExperience.map(exp => `
-            <div class="experience-item">
-                <strong>${exp.position}</strong> at <strong>${exp.company}</strong> (${exp.timePeriod})
-                <ul>
-                    ${exp.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
-                </ul>
-            </div>
-        `).join('')}
+        <div class="content-grid">
+            ${professionalExperience.map(exp => `
+                <div class="experience-item">
+                    <strong>${exp.position}</strong> at <strong>${exp.company}</strong> (${exp.timePeriod})
+                    <ul>
+                        ${exp.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
+                    </ul>
+                </div>
+            `).join('')}
+        </div>
     </div>
 
     <div class="section">
         <div class="section-title">Skills</div>
-        <ul>
-            ${skills.map(skill => `<li>${skill.skill}</li>`).join('')}
-        </ul>
+        <div class="content-grid">
+            <ul>
+                ${skills.map(skill => `<li>${skill.skill}</li>`).join('')}
+            </ul>
+        </div>
     </div>
 
     <div class="section">
@@ -136,6 +159,7 @@ const createResumeHTML = (
 </html>
     `;
 };
+
 
 const generateProfessionalResumePDF = async (resumeJSON) => {
     const { contactInformation, summary, education, professionalExperience, skills, portfolio, certifications, professionalReferences } = resumeJSON;
