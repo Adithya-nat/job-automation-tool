@@ -17,7 +17,7 @@ const sendSlackNotification = async (req, res) => {
 };
 
 
-const sendFilteredJobsToSlack = async (req, res) => {
+const searchJobs = async (req, res) => {
     try {
         const { keywords, location, category, results } = req.body.filters;
         const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);
@@ -55,4 +55,4 @@ const sendFilteredJobsToSlack = async (req, res) => {
 };
 
 
-module.exports = { sendSlackNotification, sendFilteredJobsToSlack };
+module.exports = { sendSlackNotification, searchJobs };
